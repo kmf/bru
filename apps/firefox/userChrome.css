@@ -1,0 +1,85 @@
+/*
+ * bru — Firefox userChrome.css companion
+ * https://github.com/kmf/bru
+ *
+ * Optional advanced styling for users who want more control than
+ * the WebExtension theme provides (tab shapes, density, menu styling).
+ *
+ * Install:
+ *   1. about:config → toolkit.legacyUserProfileCustomizations.stylesheets = true
+ *   2. Find your profile folder: about:support → Profile Folder
+ *   3. Create chrome/ inside, then drop this file as chrome/userChrome.css
+ *   4. Restart Firefox
+ *
+ * Variants toggle automatically via prefers-color-scheme: dark.
+ */
+
+/* bru-espresso (dark) */
+:root {
+  --bru-bg:        #1c1814;
+  --bru-bg-soft:   #26211c;
+  --bru-bg-hi:     #322b23;
+  --bru-border:    #3a332b;
+  --bru-fg:        #f5e8c7;
+  --bru-fg-alt:    #fbf3db;
+  --bru-fg-muted:  #8a7f6f;
+  --bru-yellow:    #dbb32d;
+  --bru-blue:      #4695f7;
+  --bru-red:       #fa5750;
+  --bru-teal:      #41c7b9;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bru-bg:        #faf3e0;
+    --bru-bg-soft:   #f3ead0;
+    --bru-bg-hi:     #ece3cc;
+    --bru-border:    #e0d4b0;
+    --bru-fg:        #3a2f22;
+    --bru-fg-alt:    #2d241a;
+    --bru-fg-muted:  #8a7f6f;
+    --bru-yellow:    #ad8900;
+    --bru-blue:      #0072d4;
+    --bru-red:       #d2212d;
+    --bru-teal:      #009c8f;
+  }
+}
+
+/* Tighten tabs and give active tab a bru accent underline */
+.tab-background[selected="true"] {
+  background: var(--bru-bg-hi) !important;
+  box-shadow: inset 0 -2px 0 0 var(--bru-yellow) !important;
+  border-radius: 4px 4px 0 0 !important;
+}
+
+/* URL bar focus ring */
+#urlbar[focused="true"] {
+  box-shadow: 0 0 0 1px var(--bru-yellow) !important;
+  border-color: var(--bru-yellow) !important;
+}
+
+/* Find bar */
+.findbar-container {
+  background: var(--bru-bg-soft) !important;
+  border-top: 1px solid var(--bru-border) !important;
+}
+
+/* Context menu accents */
+menu[_moz-menuactive="true"],
+menuitem[_moz-menuactive="true"] {
+  background: var(--bru-bg-hi) !important;
+  color: var(--bru-fg-alt) !important;
+}
+
+/* Scrollbar — subtle bru tone */
+scrollbar {
+  background-color: var(--bru-bg) !important;
+}
+
+scrollbar thumb {
+  background-color: var(--bru-border) !important;
+}
+
+scrollbar thumb:hover {
+  background-color: var(--bru-fg-muted) !important;
+}

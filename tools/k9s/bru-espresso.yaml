@@ -1,0 +1,95 @@
+# bru-espresso — k9s skin
+# https://github.com/kmf/bru
+#
+# Install:
+#   cp bru-espresso.yaml ~/.config/k9s/skins/bru-espresso.yaml
+#   Then in ~/.config/k9s/config.yaml:
+#     k9s:
+#       ui:
+#         skin: bru-espresso
+
+k9s:
+  body:
+    fgColor: "#f5e8c7"
+    bgColor: "#1c1814"
+    logoColor: "#dbb32d"
+  prompt:
+    fgColor: "#f5e8c7"
+    bgColor: "#1c1814"
+    suggestColor: "#4695f7"
+  info:
+    fgColor: "#8a7f6f"
+    sectionColor: "#dbb32d"
+  dialog:
+    fgColor: "#f5e8c7"
+    bgColor: "#26211c"
+    buttonFgColor: "#1c1814"
+    buttonBgColor: "#dbb32d"
+    buttonFocusFgColor: "#1c1814"
+    buttonFocusBgColor: "#ebc13d"
+    labelFgColor: "#ed8649"
+    fieldFgColor: "#f5e8c7"
+  frame:
+    border:
+      fgColor: "#3a332b"
+      focusColor: "#dbb32d"
+    menu:
+      fgColor: "#f5e8c7"
+      keyColor: "#dbb32d"
+      numKeyColor: "#af88eb"
+    crumbs:
+      fgColor: "#1c1814"
+      bgColor: "#dbb32d"
+      activeColor: "#ed8649"
+    status:
+      newColor: "#4695f7"
+      modifyColor: "#dbb32d"
+      addColor: "#75b938"
+      pendingColor: "#ed8649"
+      errorColor: "#fa5750"
+      highlightColor: "#41c7b9"
+      killColor: "#f275be"
+      completedColor: "#8a7f6f"
+    title:
+      fgColor: "#dbb32d"
+      bgColor: "#1c1814"
+      highlightColor: "#4695f7"
+      counterColor: "#af88eb"
+      filterColor: "#41c7b9"
+  views:
+    charts:
+      bgColor: "#1c1814"
+      defaultDialColors:
+        - "#4695f7"
+        - "#fa5750"
+      defaultChartColors:
+        - "#4695f7"
+        - "#fa5750"
+    table:
+      fgColor: "#f5e8c7"
+      bgColor: "#1c1814"
+      cursorFgColor: "#1c1814"
+      cursorBgColor: "#dbb32d"
+      markColor: "#41c7b9"
+      header:
+        fgColor: "#dbb32d"
+        bgColor: "#1c1814"
+        sorterColor: "#4695f7"
+    xray:
+      fgColor: "#f5e8c7"
+      bgColor: "#1c1814"
+      cursorColor: "#dbb32d"
+      graphicColor: "#af88eb"
+      showColor: "#75b938"
+    yaml:
+      keyColor: "#4695f7"
+      colonColor: "#8a7f6f"
+      valueColor: "#75b938"
+    logs:
+      fgColor: "#f5e8c7"
+      bgColor: "#1c1814"
+      indicator:
+        fgColor: "#dbb32d"
+        bgColor: "#1c1814"
+        toggleOnColor: "#75b938"
+        toggleOffColor: "#8a7f6f"

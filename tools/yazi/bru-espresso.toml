@@ -1,0 +1,99 @@
+# bru-espresso — yazi theme
+# https://github.com/kmf/bru
+#
+# Install:
+#   cp bru-espresso.toml ~/.config/yazi/theme.toml
+
+[manager]
+cwd = { fg = "#4695f7" }
+
+hovered   = { fg = "#1c1814", bg = "#dbb32d", bold = true }
+preview_hovered = { underline = true }
+
+find_keyword  = { fg = "#1c1814", bg = "#dbb32d", bold = true }
+find_position = { fg = "#f275be", bg = "reset", italic = true }
+
+marker_selected = { fg = "#75b938", bg = "#75b938" }
+marker_copied   = { fg = "#dbb32d", bg = "#dbb32d" }
+marker_cut      = { fg = "#fa5750", bg = "#fa5750" }
+
+tab_active   = { fg = "#1c1814", bg = "#dbb32d", bold = true }
+tab_inactive = { fg = "#8a7f6f", bg = "#26211c" }
+
+border_symbol = "│"
+border_style  = { fg = "#3a332b" }
+
+count_selected = { fg = "#1c1814", bg = "#75b938" }
+count_copied   = { fg = "#1c1814", bg = "#dbb32d" }
+count_cut      = { fg = "#1c1814", bg = "#fa5750" }
+
+[status]
+separator_open  = ""
+separator_close = ""
+separator_style = { fg = "#26211c", bg = "#26211c" }
+
+mode_normal = { fg = "#1c1814", bg = "#dbb32d", bold = true }
+mode_select = { fg = "#1c1814", bg = "#41c7b9", bold = true }
+mode_unset  = { fg = "#1c1814", bg = "#af88eb", bold = true }
+
+progress_label  = { fg = "#f5e8c7", bold = true }
+progress_normal = { fg = "#3a332b", bg = "#26211c" }
+progress_error  = { fg = "#fa5750", bg = "#26211c" }
+
+permissions_t = { fg = "#75b938" }
+permissions_r = { fg = "#dbb32d" }
+permissions_w = { fg = "#fa5750" }
+permissions_x = { fg = "#41c7b9" }
+permissions_s = { fg = "#8a7f6f" }
+
+[input]
+border   = { fg = "#dbb32d" }
+title    = { fg = "#dbb32d" }
+value    = { fg = "#f5e8c7" }
+selected = { reversed = true }
+
+[select]
+border   = { fg = "#4695f7" }
+active   = { fg = "#dbb32d", bold = true }
+inactive = { fg = "#f5e8c7" }
+
+[tasks]
+border  = { fg = "#af88eb" }
+title   = { fg = "#af88eb" }
+hovered = { underline = true }
+
+[which]
+mask            = { bg = "#26211c" }
+cand            = { fg = "#41c7b9" }
+rest            = { fg = "#8a7f6f" }
+desc            = { fg = "#f275be" }
+separator       = "  "
+separator_style = { fg = "#3a332b" }
+
+[help]
+on      = { fg = "#dbb32d" }
+run     = { fg = "#f275be" }
+desc    = { fg = "#8a7f6f" }
+hovered = { bg = "#322b23", bold = true }
+footer  = { fg = "#8a7f6f", bg = "#26211c" }
+
+[filetype]
+rules = [
+  { mime = "image/*", fg = "#41c7b9" },
+  { mime = "video/*", fg = "#af88eb" },
+  { mime = "audio/*", fg = "#ed8649" },
+  { mime = "application/zip",   fg = "#f275be" },
+  { mime = "application/gzip",  fg = "#f275be" },
+  { mime = "application/x-tar", fg = "#f275be" },
+  { name = "*.md",   fg = "#dbb32d" },
+  { name = "*.yml",  fg = "#4695f7" },
+  { name = "*.yaml", fg = "#4695f7" },
+  { name = "*.toml", fg = "#4695f7" },
+  { name = "*.json", fg = "#4695f7" },
+  { name = "*.nix",  fg = "#75b938" },
+  { name = "*.go",   fg = "#41c7b9" },
+  { name = "*.rs",   fg = "#ed8649" },
+  { name = "*.py",   fg = "#dbb32d" },
+  { name = "*.sh",   fg = "#75b938" },
+  { name = "*.lua",  fg = "#af88eb" },
+]

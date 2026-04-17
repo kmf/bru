@@ -1,0 +1,52 @@
+# bru-latte — a lekker colorscheme
+# https://github.com/kmf/bru
+
+[colors.primary]
+background = "#faf3e0"
+foreground = "#3a2f22"
+dim_foreground = "#8a7f6f"
+bright_foreground = "#2d241a"
+
+[colors.cursor]
+text = "#faf3e0"
+cursor = "#ad8900"
+
+[colors.vi_mode_cursor]
+text = "#faf3e0"
+cursor = "#009c8f"
+
+[colors.selection]
+text = "#2d241a"
+background = "#ece3cc"
+
+[colors.search.matches]
+foreground = "#faf3e0"
+background = "#ad8900"
+
+[colors.search.focused_match]
+foreground = "#faf3e0"
+background = "#c25d1e"
+
+[colors.footer_bar]
+foreground = "#3a2f22"
+background = "#f3ead0"
+
+[colors.normal]
+black   = "#3a2f22"
+red     = "#d2212d"
+green   = "#489100"
+yellow  = "#ad8900"
+blue    = "#0072d4"
+magenta = "#ca4898"
+cyan    = "#009c8f"
+white   = "#faf3e0"
+
+[colors.bright]
+black   = "#8a7f6f"
+red     = "#cc1729"
+green   = "#428b00"
+yellow  = "#a78300"
+blue    = "#006dce"
+magenta = "#c44392"
+cyan    = "#00978a"
+white   = "#2d241a"

@@ -1,0 +1,72 @@
+// bru-espresso — a lekker colorscheme for COSMIC Desktop
+// https://github.com/kmf/bru
+//
+// Drop into ~/.config/cosmic/com.system76.CosmicTheme.Dark/v1/Theme
+// then import via Settings > Appearance > Dark Mode Theme.
+//
+// Note: COSMIC theme format is still evolving. This file targets the
+// theme schema as of cosmic-epoch 1.0. If fields differ in your version,
+// use `cosmic-settings` > Appearance > Custom Theme > Export to see the
+// current schema and merge bru values into it.
+
+(
+    name: "bru-espresso",
+    palette: Dark((
+        name: "bru-espresso",
+        bright_green:  (red: 0.518, green: 0.780, blue: 0.278, alpha: 1.0),  // #84c747
+        bright_red:    (red: 1.000, green: 0.400, blue: 0.361, alpha: 1.0),  // #ff665c
+        bright_orange: (red: 0.945, green: 0.565, blue: 0.345, alpha: 1.0),  // #f19058
+        bright_yellow: (red: 0.922, green: 0.757, blue: 0.239, alpha: 1.0),  // #ebc13d
+        accent_blue:   (red: 0.275, green: 0.584, blue: 0.969, alpha: 1.0),  // #4695f7
+        accent_green:  (red: 0.459, green: 0.722, blue: 0.220, alpha: 1.0),  // #75b938
+        accent_indigo: (red: 0.686, green: 0.533, blue: 0.922, alpha: 1.0),  // #af88eb
+        accent_orange: (red: 0.929, green: 0.525, blue: 0.286, alpha: 1.0),  // #ed8649
+        accent_pink:   (red: 0.949, green: 0.459, blue: 0.745, alpha: 1.0),  // #f275be
+        accent_purple: (red: 0.686, green: 0.533, blue: 0.922, alpha: 1.0),  // #af88eb
+        accent_red:    (red: 0.980, green: 0.341, blue: 0.314, alpha: 1.0),  // #fa5750
+        accent_warm_grey: (red: 0.541, green: 0.498, blue: 0.435, alpha: 1.0), // #8a7f6f
+        accent_yellow: (red: 0.859, green: 0.702, blue: 0.176, alpha: 1.0),  // #dbb32d
+        ext_orange:    (red: 0.929, green: 0.525, blue: 0.286, alpha: 1.0),  // #ed8649
+        ext_pink:      (red: 0.949, green: 0.459, blue: 0.745, alpha: 1.0),  // #f275be
+        ext_purple:    (red: 0.686, green: 0.533, blue: 0.922, alpha: 1.0),  // #af88eb
+        ext_indigo:    (red: 0.345, green: 0.639, blue: 1.000, alpha: 1.0),  // #58a3ff
+        ext_warm_grey: (red: 0.541, green: 0.498, blue: 0.435, alpha: 1.0),  // #8a7f6f
+        ext_yellow:    (red: 0.922, green: 0.757, blue: 0.239, alpha: 1.0),  // #ebc13d
+        gray_1:        (red: 0.109, green: 0.094, blue: 0.078, alpha: 1.0),  // #1c1814  bg
+        gray_2:        (red: 0.149, green: 0.129, blue: 0.109, alpha: 1.0),  // #26211c  bg-soft
+        neutral_0:     (red: 0.109, green: 0.094, blue: 0.078, alpha: 1.0),  // #1c1814
+        neutral_1:     (red: 0.149, green: 0.129, blue: 0.109, alpha: 1.0),  // #26211c
+        neutral_2:     (red: 0.196, green: 0.169, blue: 0.137, alpha: 1.0),  // #322b23
+        neutral_3:     (red: 0.227, green: 0.200, blue: 0.169, alpha: 1.0),  // #3a332b
+        neutral_4:     (red: 0.380, green: 0.341, blue: 0.294, alpha: 1.0),  // #61574b
+        neutral_5:     (red: 0.541, green: 0.498, blue: 0.435, alpha: 1.0),  // #8a7f6f
+        neutral_6:     (red: 0.710, green: 0.655, blue: 0.569, alpha: 1.0),  // #b5a791
+        neutral_7:     (red: 0.859, green: 0.796, blue: 0.694, alpha: 1.0),  // #dbcbb1
+        neutral_8:     (red: 0.961, green: 0.910, blue: 0.780, alpha: 1.0),  // #f5e8c7  fg
+        neutral_9:     (red: 0.984, green: 0.953, blue: 0.859, alpha: 1.0),  // #fbf3db  fg-alt
+        neutral_10:    (red: 1.000, green: 0.980, blue: 0.918, alpha: 1.0),  // #fffad8
+    )),
+    is_frosted: true,
+    gaps: (0, 8),
+    active_hint: 3,
+    corner_radii: (
+        radius_0: (0.0, 0.0, 0.0, 0.0),
+        radius_xs: (4.0, 4.0, 4.0, 4.0),
+        radius_s:  (8.0, 8.0, 8.0, 8.0),
+        radius_m:  (16.0, 16.0, 16.0, 16.0),
+        radius_l:  (32.0, 32.0, 32.0, 32.0),
+        radius_xl: (160.0, 160.0, 160.0, 160.0),
+    ),
+    spacing: (
+        space_none: 0,
+        space_xxxs: 2,
+        space_xxs: 4,
+        space_xs: 8,
+        space_s: 12,
+        space_m: 16,
+        space_l: 24,
+        space_xl: 32,
+        space_xxl: 48,
+        space_xxxl: 64,
+    ),
+)

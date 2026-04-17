@@ -1,0 +1,28 @@
+# bru-latte — lazygit theme
+# https://github.com/kmf/bru
+
+gui:
+  theme:
+    activeBorderColor:
+      - "#ad8900"
+      - bold
+    inactiveBorderColor:
+      - "#e0d4b0"
+    searchingActiveBorderColor:
+      - "#c25d1e"
+      - bold
+    optionsTextColor:
+      - "#0072d4"
+    selectedLineBgColor:
+      - "#ece3cc"
+    selectedRangeBgColor:
+      - "#ece3cc"
+    cherryPickedCommitBgColor:
+      - "#009c8f"
+    cherryPickedCommitFgColor:
+      - "#faf3e0"
+    unstagedChangesColor:
+      - "#d2212d"
+    defaultFgColor:
+      - "#3a2f22"
+  nerdFontsVersion: "3"

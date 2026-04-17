@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "bru-espresso",
+  "version": "1.0.0",
+  "description": "a lekker colorscheme — dark roast. https://github.com/kmf/bru",
+  "theme": {
+    "colors": {
+      "frame":                           [28, 24, 20],
+      "frame_inactive":                  [28, 24, 20],
+      "frame_incognito":                 [28, 24, 20],
+      "frame_incognito_inactive":        [28, 24, 20],
+
+      "toolbar":                         [38, 33, 28],
+      "toolbar_text":                    [245, 232, 199],
+
+      "tab_text":                        [245, 232, 199],
+      "tab_background_text":             [138, 127, 111],
+      "tab_background_text_inactive":    [138, 127, 111],
+
+      "bookmark_text":                   [245, 232, 199],
+
+      "ntp_background":                  [28, 24, 20],
+      "ntp_text":                        [245, 232, 199],
+      "ntp_link":                        [70, 149, 247],
+      "ntp_header":                      [219, 179, 45],
+
+      "button_background":               [58, 51, 43],
+      "omnibox_background":              [38, 33, 28],
+      "omnibox_text":                    [245, 232, 199],
+
+      "toolbar_button_icon":             [219, 179, 45]
+    },
+    "tints": {
+      "buttons":     [-1, -1, 0.85],
+      "frame":       [-1, -1, 0.10],
+      "background_tab": [-1, -1, 0.15]
+    },
+    "properties": {
+      "ntp_background_alignment": "center"
+    }
+  }
+}

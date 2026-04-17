@@ -1,0 +1,109 @@
+# bru-espresso — starship prompt
+# https://github.com/kmf/bru
+#
+# Install:
+#   cp bru-espresso.toml ~/.config/starship.toml
+#   or merge into your existing config.
+
+palette = "bru-espresso"
+
+format = """
+[☕ ](yellow)$directory$git_branch$git_status$ansible$kubernetes$python$golang$rust$nix_shell$cmd_duration$line_break$character"""
+
+[palettes.bru-espresso]
+bg       = "#1c1814"
+bg_soft  = "#26211c"
+border   = "#3a332b"
+fg       = "#f5e8c7"
+fg_muted = "#8a7f6f"
+yellow   = "#dbb32d"
+orange   = "#ed8649"
+red      = "#fa5750"
+magenta  = "#f275be"
+violet   = "#af88eb"
+blue     = "#4695f7"
+teal     = "#41c7b9"
+green    = "#75b938"
+
+[palettes.bru-latte]
+bg       = "#faf3e0"
+bg_soft  = "#f3ead0"
+border   = "#e0d4b0"
+fg       = "#3a2f22"
+fg_muted = "#8a7f6f"
+yellow   = "#ad8900"
+orange   = "#c25d1e"
+red      = "#d2212d"
+magenta  = "#ca4898"
+violet   = "#8762c6"
+blue     = "#0072d4"
+teal     = "#009c8f"
+green    = "#489100"
+
+[character]
+success_symbol = "[❯](yellow)"
+error_symbol = "[❯](red)"
+
+[directory]
+style = "blue bold"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[git_branch]
+symbol = "  "
+style = "violet"
+format = "[$symbol$branch]($style) "
+
+[git_status]
+style = "yellow"
+format = "[$all_status$ahead_behind]($style) "
+conflicted = "⚑"
+ahead = "⇡${count}"
+behind = "⇣${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+untracked = "?${count}"
+stashed = "≡"
+modified = "!${count}"
+staged = "+${count}"
+renamed = "»"
+deleted = "✘${count}"
+
+[ansible]
+style = "red"
+format = "[$symbol$version]($style) "
+
+[kubernetes]
+disabled = false
+symbol = "⎈ "
+style = "teal"
+format = "[$symbol$context:$namespace]($style) "
+
+[python]
+symbol = " "
+style = "green"
+format = "[$symbol$version]($style) "
+
+[golang]
+symbol = " "
+style = "teal"
+format = "[$symbol$version]($style) "
+
+[rust]
+symbol = "🦀 "
+style = "orange"
+format = "[$symbol$version]($style) "
+
+[nix_shell]
+symbol = "❄ "
+style = "blue"
+format = "[$symbol$state]($style) "
+
+[cmd_duration]
+min_time = 2000
+style = "fg_muted"
+format = "[$duration]($style) "
+
+[time]
+disabled = false
+style = "fg_muted"
+format = "[$time]($style)"

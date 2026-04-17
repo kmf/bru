@@ -1,0 +1,15 @@
+{
+  "name": "bru-espresso",
+  "background": "#1C1814",
+  "foreground": "#F5E8C7",
+  "cursorColor": "#DBB32D",
+  "selectionBackground": "#322B23",
+  "black":   "#1C1814", "brightBlack":   "#3A332B",
+  "red":     "#FA5750", "brightRed":     "#FF665C",
+  "green":   "#75B938", "brightGreen":   "#84C747",
+  "yellow":  "#DBB32D", "brightYellow":  "#EBC13D",
+  "blue":    "#4695F7", "brightBlue":    "#58A3FF",
+  "purple":  "#F275BE", "brightPurple":  "#FF84CD",
+  "cyan":    "#41C7B9", "brightCyan":    "#53D6C7",
+  "white":   "#F5E8C7", "brightWhite":   "#FBF3DB"
+}

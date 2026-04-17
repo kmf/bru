@@ -1,0 +1,71 @@
+{
+  "manifest_version": 2,
+  "name": "bru-espresso",
+  "version": "1.0.0",
+  "description": "a lekker colorscheme — dark roast. https://github.com/kmf/bru",
+  "author": "kmf",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "bru-espresso@bru.theme"
+    }
+  },
+  "theme": {
+    "colors": {
+      "frame":                       "#1c1814",
+      "frame_inactive":              "#1c1814",
+
+      "toolbar":                     "#26211c",
+      "toolbar_field":               "#1c1814",
+      "toolbar_field_focus":         "#26211c",
+      "toolbar_field_border":        "#3a332b",
+      "toolbar_field_border_focus":  "#dbb32d",
+      "toolbar_field_text":          "#f5e8c7",
+      "toolbar_field_text_focus":    "#f5e8c7",
+      "toolbar_field_highlight":     "#322b23",
+      "toolbar_field_highlight_text":"#f5e8c7",
+      "toolbar_text":                "#f5e8c7",
+      "toolbar_bottom_separator":    "#3a332b",
+      "toolbar_top_separator":       "#3a332b",
+      "toolbar_vertical_separator":  "#3a332b",
+
+      "tab_text":                    "#f5e8c7",
+      "tab_background_text":         "#8a7f6f",
+      "tab_background_separator":    "#3a332b",
+      "tab_line":                    "#dbb32d",
+      "tab_loading":                 "#dbb32d",
+      "tab_selected":                "#322b23",
+
+      "bookmark_text":               "#f5e8c7",
+      "button_background_hover":     "#322b23",
+      "button_background_active":    "#3a332b",
+
+      "icons":                       "#f5e8c7",
+      "icons_attention":             "#dbb32d",
+
+      "ntp_background":              "#1c1814",
+      "ntp_card_background":         "#26211c",
+      "ntp_text":                    "#f5e8c7",
+
+      "popup":                       "#26211c",
+      "popup_border":                "#3a332b",
+      "popup_highlight":             "#322b23",
+      "popup_highlight_text":        "#f5e8c7",
+      "popup_text":                  "#f5e8c7",
+
+      "sidebar":                     "#1c1814",
+      "sidebar_border":              "#3a332b",
+      "sidebar_highlight":           "#dbb32d",
+      "sidebar_highlight_text":      "#1c1814",
+      "sidebar_text":                "#f5e8c7",
+
+      "address_bar_box":             "#1c1814",
+      "address_bar_box_hover":       "#26211c",
+      "address_bar_box_focus":       "#26211c",
+      "address_bar_box_text":        "#f5e8c7"
+    },
+    "properties": {
+      "color_scheme":          "dark",
+      "content_color_scheme":  "system"
+    }
+  }
+}

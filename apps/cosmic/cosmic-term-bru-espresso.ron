@@ -1,0 +1,44 @@
+// bru-espresso color scheme for cosmic-term
+// https://github.com/kmf/bru
+//
+// Install:
+//   1. Open cosmic-term
+//   2. View > Color schemes...
+//   3. Click Import, select this file
+//   4. View > Color schemes > bru-espresso
+
+(
+    name: "bru-espresso",
+    foreground: Some("#f5e8c7"),
+    background: Some("#1c1814"),
+    cursor: Some("#dbb32d"),
+    bright_foreground: Some("#fbf3db"),
+    dim_foreground: Some("#8a7f6f"),
+
+    black: Some("#1c1814"),
+    red: Some("#fa5750"),
+    green: Some("#75b938"),
+    yellow: Some("#dbb32d"),
+    blue: Some("#4695f7"),
+    magenta: Some("#f275be"),
+    cyan: Some("#41c7b9"),
+    white: Some("#f5e8c7"),
+
+    bright_black: Some("#3a332b"),
+    bright_red: Some("#ff665c"),
+    bright_green: Some("#84c747"),
+    bright_yellow: Some("#ebc13d"),
+    bright_blue: Some("#58a3ff"),
+    bright_magenta: Some("#ff84cd"),
+    bright_cyan: Some("#53d6c7"),
+    bright_white: Some("#fbf3db"),
+
+    dim_black: Some("#1c1814"),
+    dim_red: Some("#cb4b4b"),
+    dim_green: Some("#638a2f"),
+    dim_yellow: Some("#b08c25"),
+    dim_blue: Some("#3878c6"),
+    dim_magenta: Some("#c25e99"),
+    dim_cyan: Some("#349e94"),
+    dim_white: Some("#8a7f6f"),
+)

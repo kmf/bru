@@ -1,0 +1,74 @@
+# bru-latte — k9s skin
+# https://github.com/kmf/bru
+
+k9s:
+  body:
+    fgColor: "#3a2f22"
+    bgColor: "#faf3e0"
+    logoColor: "#ad8900"
+  prompt:
+    fgColor: "#3a2f22"
+    bgColor: "#faf3e0"
+    suggestColor: "#0072d4"
+  info:
+    fgColor: "#8a7f6f"
+    sectionColor: "#ad8900"
+  dialog:
+    fgColor: "#3a2f22"
+    bgColor: "#f3ead0"
+    buttonFgColor: "#faf3e0"
+    buttonBgColor: "#ad8900"
+    buttonFocusFgColor: "#faf3e0"
+    buttonFocusBgColor: "#a78300"
+    labelFgColor: "#c25d1e"
+    fieldFgColor: "#3a2f22"
+  frame:
+    border:
+      fgColor: "#e0d4b0"
+      focusColor: "#ad8900"
+    menu:
+      fgColor: "#3a2f22"
+      keyColor: "#ad8900"
+      numKeyColor: "#8762c6"
+    crumbs:
+      fgColor: "#faf3e0"
+      bgColor: "#ad8900"
+      activeColor: "#c25d1e"
+    status:
+      newColor: "#0072d4"
+      modifyColor: "#ad8900"
+      addColor: "#489100"
+      pendingColor: "#c25d1e"
+      errorColor: "#d2212d"
+      highlightColor: "#009c8f"
+      killColor: "#ca4898"
+      completedColor: "#8a7f6f"
+    title:
+      fgColor: "#ad8900"
+      bgColor: "#faf3e0"
+      highlightColor: "#0072d4"
+      counterColor: "#8762c6"
+      filterColor: "#009c8f"
+  views:
+    table:
+      fgColor: "#3a2f22"
+      bgColor: "#faf3e0"
+      cursorFgColor: "#faf3e0"
+      cursorBgColor: "#ad8900"
+      markColor: "#009c8f"
+      header:
+        fgColor: "#ad8900"
+        bgColor: "#faf3e0"
+        sorterColor: "#0072d4"
+    yaml:
+      keyColor: "#0072d4"
+      colonColor: "#8a7f6f"
+      valueColor: "#489100"
+    logs:
+      fgColor: "#3a2f22"
+      bgColor: "#faf3e0"
+      indicator:
+        fgColor: "#ad8900"
+        bgColor: "#faf3e0"
+        toggleOnColor: "#489100"
+        toggleOffColor: "#8a7f6f"

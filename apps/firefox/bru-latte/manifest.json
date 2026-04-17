@@ -1,0 +1,71 @@
+{
+  "manifest_version": 2,
+  "name": "bru-latte",
+  "version": "1.0.0",
+  "description": "a lekker colorscheme — creamy light. https://github.com/kmf/bru",
+  "author": "kmf",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "bru-latte@bru.theme"
+    }
+  },
+  "theme": {
+    "colors": {
+      "frame":                       "#faf3e0",
+      "frame_inactive":              "#faf3e0",
+
+      "toolbar":                     "#f3ead0",
+      "toolbar_field":               "#faf3e0",
+      "toolbar_field_focus":         "#f3ead0",
+      "toolbar_field_border":        "#e0d4b0",
+      "toolbar_field_border_focus":  "#ad8900",
+      "toolbar_field_text":          "#3a2f22",
+      "toolbar_field_text_focus":    "#3a2f22",
+      "toolbar_field_highlight":     "#ece3cc",
+      "toolbar_field_highlight_text":"#3a2f22",
+      "toolbar_text":                "#3a2f22",
+      "toolbar_bottom_separator":    "#e0d4b0",
+      "toolbar_top_separator":       "#e0d4b0",
+      "toolbar_vertical_separator":  "#e0d4b0",
+
+      "tab_text":                    "#3a2f22",
+      "tab_background_text":         "#8a7f6f",
+      "tab_background_separator":    "#e0d4b0",
+      "tab_line":                    "#ad8900",
+      "tab_loading":                 "#ad8900",
+      "tab_selected":                "#ece3cc",
+
+      "bookmark_text":               "#3a2f22",
+      "button_background_hover":     "#ece3cc",
+      "button_background_active":    "#e0d4b0",
+
+      "icons":                       "#3a2f22",
+      "icons_attention":             "#ad8900",
+
+      "ntp_background":              "#faf3e0",
+      "ntp_card_background":         "#f3ead0",
+      "ntp_text":                    "#3a2f22",
+
+      "popup":                       "#f3ead0",
+      "popup_border":                "#e0d4b0",
+      "popup_highlight":             "#ece3cc",
+      "popup_highlight_text":        "#3a2f22",
+      "popup_text":                  "#3a2f22",
+
+      "sidebar":                     "#faf3e0",
+      "sidebar_border":              "#e0d4b0",
+      "sidebar_highlight":           "#ad8900",
+      "sidebar_highlight_text":      "#faf3e0",
+      "sidebar_text":                "#3a2f22",
+
+      "address_bar_box":             "#faf3e0",
+      "address_bar_box_hover":       "#f3ead0",
+      "address_bar_box_focus":       "#f3ead0",
+      "address_bar_box_text":        "#3a2f22"
+    },
+    "properties": {
+      "color_scheme":          "light",
+      "content_color_scheme":  "system"
+    }
+  }
+}

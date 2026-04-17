@@ -1,0 +1,203 @@
+/*
+ * bru.css — a lekker colorscheme for Obsidian
+ * https://github.com/kmf/bru
+ *
+ * Install:
+ *   Copy this file to your vault:
+ *     <vault>/.obsidian/themes/bru/theme.css
+ *
+ *   Then: Settings > Appearance > Themes > Manage... > pick "bru"
+ *
+ * Follows the system light/dark mode — sets espresso when dark, latte when light.
+ */
+
+/* ------------------------------------------------------------------
+   bru-espresso — dark theme
+   ------------------------------------------------------------------ */
+.theme-dark {
+  /* Background */
+  --background-primary:         #1c1814;
+  --background-primary-alt:     #1f1b16;
+  --background-secondary:       #26211c;
+  --background-secondary-alt:   #322b23;
+  --background-modifier-border: #3a332b;
+  --background-modifier-border-hover:  #50463a;
+  --background-modifier-border-focus:  #dbb32d;
+  --background-modifier-hover:  #322b23;
+  --background-modifier-active-hover: #3a332b;
+
+  /* Text */
+  --text-normal:    #f5e8c7;
+  --text-muted:     #8a7f6f;
+  --text-faint:     #61574b;
+  --text-on-accent: #1c1814;
+  --text-accent:    #dbb32d;
+  --text-accent-hover: #ebc13d;
+  --text-error:     #fa5750;
+  --text-warning:   #ed8649;
+  --text-success:   #75b938;
+  --text-selection: #322b23;
+  --text-highlight-bg:      #dbb32d;
+  --text-highlight-fg:      #1c1814;
+
+  /* Interactive */
+  --interactive-normal:      #26211c;
+  --interactive-hover:       #322b23;
+  --interactive-accent:      #dbb32d;
+  --interactive-accent-hover:#ebc13d;
+
+  /* Headings */
+  --h1-color: #dbb32d;
+  --h2-color: #ed8649;
+  --h3-color: #4695f7;
+  --h4-color: #41c7b9;
+  --h5-color: #af88eb;
+  --h6-color: #8a7f6f;
+
+  /* Code / inline */
+  --code-background: #26211c;
+  --code-normal:     #f5e8c7;
+  --code-comment:    #8a7f6f;
+  --code-function:   #4695f7;
+  --code-keyword:    #fa5750;
+  --code-operator:   #f5e8c7;
+  --code-property:   #dbb32d;
+  --code-punctuation:#f5e8c7;
+  --code-string:     #75b938;
+  --code-tag:        #fa5750;
+  --code-value:      #41c7b9;
+  --code-important:  #ed8649;
+
+  /* Links */
+  --link-color:           #4695f7;
+  --link-color-hover:     #58a3ff;
+  --link-unresolved-color:#fa5750;
+  --link-external-color:  #af88eb;
+
+  /* Tags */
+  --tag-color:      #41c7b9;
+  --tag-background: #26211c;
+
+  /* Callouts */
+  --callout-note:      70, 149, 247;    /* blue   */
+  --callout-info:      65, 199, 185;    /* teal   */
+  --callout-success:   117, 185, 56;    /* green  */
+  --callout-warning:   237, 134, 73;    /* orange */
+  --callout-error:     250, 87,  80;    /* red    */
+  --callout-question:  175, 136, 235;   /* violet */
+  --callout-quote:     138, 127, 111;   /* muted  */
+  --callout-important: 242, 117, 190;   /* magenta*/
+  --callout-tip:       219, 179, 45;    /* yellow */
+
+  /* Graph view */
+  --graph-line:        #3a332b;
+  --graph-node:        #f5e8c7;
+  --graph-node-focused:#dbb32d;
+  --graph-node-tag:    #41c7b9;
+  --graph-node-unresolved: #fa5750;
+  --graph-text:        #f5e8c7;
+
+  /* Tables */
+  --table-border-color:     #3a332b;
+  --table-header-background:#26211c;
+  --table-row-alt-background:#1f1b16;
+}
+
+/* ------------------------------------------------------------------
+   bru-latte — light theme
+   ------------------------------------------------------------------ */
+.theme-light {
+  --background-primary:         #faf3e0;
+  --background-primary-alt:     #f7efd8;
+  --background-secondary:       #f3ead0;
+  --background-secondary-alt:   #ece3cc;
+  --background-modifier-border: #e0d4b0;
+  --background-modifier-border-hover:  #c9ba95;
+  --background-modifier-border-focus:  #ad8900;
+  --background-modifier-hover:  #ece3cc;
+  --background-modifier-active-hover: #e0d4b0;
+
+  --text-normal:    #3a2f22;
+  --text-muted:     #8a7f6f;
+  --text-faint:     #b5a791;
+  --text-on-accent: #faf3e0;
+  --text-accent:    #ad8900;
+  --text-accent-hover: #a78300;
+  --text-error:     #d2212d;
+  --text-warning:   #c25d1e;
+  --text-success:   #489100;
+  --text-selection: #ece3cc;
+  --text-highlight-bg:      #ad8900;
+  --text-highlight-fg:      #faf3e0;
+
+  --interactive-normal:      #f3ead0;
+  --interactive-hover:       #ece3cc;
+  --interactive-accent:      #ad8900;
+  --interactive-accent-hover:#a78300;
+
+  --h1-color: #ad8900;
+  --h2-color: #c25d1e;
+  --h3-color: #0072d4;
+  --h4-color: #009c8f;
+  --h5-color: #8762c6;
+  --h6-color: #8a7f6f;
+
+  --code-background: #f3ead0;
+  --code-normal:     #3a2f22;
+  --code-comment:    #8a7f6f;
+  --code-function:   #0072d4;
+  --code-keyword:    #d2212d;
+  --code-operator:   #3a2f22;
+  --code-property:   #ad8900;
+  --code-punctuation:#3a2f22;
+  --code-string:     #489100;
+  --code-tag:        #d2212d;
+  --code-value:      #009c8f;
+  --code-important:  #c25d1e;
+
+  --link-color:           #0072d4;
+  --link-color-hover:     #006dce;
+  --link-unresolved-color:#d2212d;
+  --link-external-color:  #8762c6;
+
+  --tag-color:      #009c8f;
+  --tag-background: #f3ead0;
+
+  --callout-note:      0, 114, 212;
+  --callout-info:      0, 156, 143;
+  --callout-success:   72, 145, 0;
+  --callout-warning:   194, 93, 30;
+  --callout-error:     210, 33, 45;
+  --callout-question:  135, 98, 198;
+  --callout-quote:     138, 127, 111;
+  --callout-important: 202, 72, 152;
+  --callout-tip:       173, 137, 0;
+
+  --graph-line:        #e0d4b0;
+  --graph-node:        #3a2f22;
+  --graph-node-focused:#ad8900;
+  --graph-node-tag:    #009c8f;
+  --graph-node-unresolved: #d2212d;
+  --graph-text:        #3a2f22;
+
+  --table-border-color:     #e0d4b0;
+  --table-header-background:#f3ead0;
+  --table-row-alt-background:#f7efd8;
+}
+
+/* ------------------------------------------------------------------
+   Optional refinements — monospace block, quote border, etc.
+   ------------------------------------------------------------------ */
+.theme-dark blockquote { border-left: 3px solid var(--text-accent); }
+.theme-light blockquote { border-left: 3px solid var(--text-accent); }
+
+.theme-dark .cm-s-obsidian .cm-hmd-internal-link { color: var(--link-color); }
+.theme-light .cm-s-obsidian .cm-hmd-internal-link { color: var(--link-color); }
+
+/* subtle title-bar accent */
+.theme-dark .workspace-tab-header.is-active {
+  border-top: 2px solid var(--text-accent);
+}
+.theme-light .workspace-tab-header.is-active {
+  border-top: 2px solid var(--text-accent);
+}

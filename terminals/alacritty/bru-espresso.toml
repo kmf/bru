@@ -1,0 +1,79 @@
+# bru-espresso — a lekker colorscheme
+# https://github.com/kmf/bru
+#
+# Drop into ~/.config/alacritty/themes/bru-espresso.toml
+# Then in alacritty.toml:
+#   [general]
+#   import = ["~/.config/alacritty/themes/bru-espresso.toml"]
+
+[colors.primary]
+background = "#1c1814"
+foreground = "#f5e8c7"
+dim_foreground = "#8a7f6f"
+bright_foreground = "#fbf3db"
+
+[colors.cursor]
+text = "#1c1814"
+cursor = "#dbb32d"
+
+[colors.vi_mode_cursor]
+text = "#1c1814"
+cursor = "#41c7b9"
+
+[colors.selection]
+text = "#fbf3db"
+background = "#322b23"
+
+[colors.search.matches]
+foreground = "#1c1814"
+background = "#dbb32d"
+
+[colors.search.focused_match]
+foreground = "#1c1814"
+background = "#ed8649"
+
+[colors.hints.start]
+foreground = "#1c1814"
+background = "#dbb32d"
+
+[colors.hints.end]
+foreground = "#1c1814"
+background = "#8a7f6f"
+
+[colors.line_indicator]
+foreground = "None"
+background = "None"
+
+[colors.footer_bar]
+foreground = "#f5e8c7"
+background = "#26211c"
+
+[colors.normal]
+black   = "#1c1814"
+red     = "#fa5750"
+green   = "#75b938"
+yellow  = "#dbb32d"
+blue    = "#4695f7"
+magenta = "#f275be"
+cyan    = "#41c7b9"
+white   = "#f5e8c7"
+
+[colors.bright]
+black   = "#3a332b"
+red     = "#ff665c"
+green   = "#84c747"
+yellow  = "#ebc13d"
+blue    = "#58a3ff"
+magenta = "#ff84cd"
+cyan    = "#53d6c7"
+white   = "#fbf3db"
+
+[colors.dim]
+black   = "#1c1814"
+red     = "#cb4b4b"
+green   = "#638a2f"
+yellow  = "#b08c25"
+blue    = "#3878c6"
+magenta = "#c25e99"
+cyan    = "#349e94"
+white   = "#8a7f6f"

@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "bru-latte",
+  "version": "1.0.0",
+  "description": "a lekker colorscheme — creamy light. https://github.com/kmf/bru",
+  "theme": {
+    "colors": {
+      "frame":                           [250, 243, 224],
+      "frame_inactive":                  [250, 243, 224],
+      "frame_incognito":                 [250, 243, 224],
+      "frame_incognito_inactive":        [250, 243, 224],
+
+      "toolbar":                         [243, 234, 208],
+      "toolbar_text":                    [58, 47, 34],
+
+      "tab_text":                        [58, 47, 34],
+      "tab_background_text":             [138, 127, 111],
+      "tab_background_text_inactive":    [138, 127, 111],
+
+      "bookmark_text":                   [58, 47, 34],
+
+      "ntp_background":                  [250, 243, 224],
+      "ntp_text":                        [58, 47, 34],
+      "ntp_link":                        [0, 114, 212],
+      "ntp_header":                      [173, 137, 0],
+
+      "button_background":               [224, 212, 176],
+      "omnibox_background":              [243, 234, 208],
+      "omnibox_text":                    [58, 47, 34],
+
+      "toolbar_button_icon":             [173, 137, 0]
+    },
+    "tints": {
+      "buttons": [-1, -1, 0.3]
+    },
+    "properties": {
+      "ntp_background_alignment": "center"
+    }
+  }
+}

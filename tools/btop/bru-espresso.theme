@@ -1,0 +1,97 @@
+# bru-espresso — btop theme
+# https://github.com/kmf/bru
+#
+# Install:
+#   cp bru-espresso.theme ~/.config/btop/themes/
+#   Then in ~/.config/btop/btop.conf:
+#     color_theme = "bru-espresso"
+
+# Main background
+theme[main_bg]="#1c1814"
+
+# Main text color
+theme[main_fg]="#f5e8c7"
+
+# Title color for boxes
+theme[title]="#dbb32d"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#dbb32d"
+
+# Background color of selected items
+theme[selected_bg]="#322b23"
+
+# Foreground color of selected items
+theme[selected_fg]="#dbb32d"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#8a7f6f"
+
+# Color of text appearing on top of graphs, i.e uptime and current network graph scaling
+theme[graph_text]="#f5e8c7"
+
+# Background color of the percentage meters
+theme[meter_bg]="#26211c"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#af88eb"
+
+# Cpu box outline color
+theme[cpu_box]="#3a332b"
+
+# Memory/disks box outline color
+theme[mem_box]="#3a332b"
+
+# Net up/down box outline color
+theme[net_box]="#3a332b"
+
+# Processes box outline color
+theme[proc_box]="#3a332b"
+
+# Box divider line and small boxes line color
+theme[div_line]="#3a332b"
+
+# Temperature graph color gradient (low -> med -> high)
+theme[temp_start]="#75b938"
+theme[temp_mid]="#dbb32d"
+theme[temp_end]="#fa5750"
+
+# CPU graph colors
+theme[cpu_start]="#41c7b9"
+theme[cpu_mid]="#4695f7"
+theme[cpu_end]="#af88eb"
+
+# Mem/Disk free meter
+theme[free_start]="#75b938"
+theme[free_mid]=""
+theme[free_end]=""
+
+# Mem/Disk cached meter
+theme[cached_start]="#4695f7"
+theme[cached_mid]=""
+theme[cached_end]=""
+
+# Mem/Disk available meter
+theme[available_start]="#dbb32d"
+theme[available_mid]=""
+theme[available_end]=""
+
+# Mem/Disk used meter
+theme[used_start]="#ed8649"
+theme[used_mid]=""
+theme[used_end]="#fa5750"
+
+# Download graph colors
+theme[download_start]="#41c7b9"
+theme[download_mid]="#4695f7"
+theme[download_end]="#af88eb"
+
+# Upload graph colors
+theme[upload_start]="#75b938"
+theme[upload_mid]="#dbb32d"
+theme[upload_end]="#ed8649"
+
+# Process box color gradient for threads, memory and cpu usage
+theme[process_start]="#75b938"
+theme[process_mid]="#dbb32d"
+theme[process_end]="#fa5750"

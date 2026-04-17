@@ -1,0 +1,26 @@
+# bru-espresso — a lekker colorscheme
+# https://github.com/kmf/bru
+
+background = 1c1814
+foreground = f5e8c7
+cursor-color = dbb32d
+cursor-text = 1c1814
+selection-background = 322b23
+selection-foreground = fbf3db
+
+palette = 0=#1c1814
+palette = 1=#fa5750
+palette = 2=#75b938
+palette = 3=#dbb32d
+palette = 4=#4695f7
+palette = 5=#f275be
+palette = 6=#41c7b9
+palette = 7=#f5e8c7
+palette = 8=#3a332b
+palette = 9=#ff665c
+palette = 10=#84c747
+palette = 11=#ebc13d
+palette = 12=#58a3ff
+palette = 13=#ff84cd
+palette = 14=#53d6c7
+palette = 15=#fbf3db

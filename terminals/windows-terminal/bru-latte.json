@@ -1,0 +1,15 @@
+{
+  "name": "bru-latte",
+  "background": "#FAF3E0",
+  "foreground": "#3A2F22",
+  "cursorColor": "#AD8900",
+  "selectionBackground": "#ECE3CC",
+  "black":   "#3A2F22", "brightBlack":   "#8A7F6F",
+  "red":     "#D2212D", "brightRed":     "#CC1729",
+  "green":   "#489100", "brightGreen":   "#428B00",
+  "yellow":  "#AD8900", "brightYellow":  "#A78300",
+  "blue":    "#0072D4", "brightBlue":    "#006DCE",
+  "purple":  "#CA4898", "brightPurple":  "#C44392",
+  "cyan":    "#009C8F", "brightCyan":    "#00978A",
+  "white":   "#FAF3E0", "brightWhite":   "#2D241A"
+}

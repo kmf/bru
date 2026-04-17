@@ -1,0 +1,101 @@
+{
+  "name": "Bru",
+  "version": "1.0.0",
+  "tagline": "a lekker colorscheme",
+  "author": "kmf",
+  "license": "MIT",
+  "variants": {
+    "bru-espresso": {
+      "type": "dark",
+      "neutrals": {
+        "bg":       "#1c1814",
+        "bg_soft":  "#26211c",
+        "bg_hi":    "#322b23",
+        "border":   "#3a332b",
+        "fg":       "#f5e8c7",
+        "fg_alt":   "#fbf3db",
+        "fg_muted": "#8a7f6f"
+      },
+      "accents": {
+        "yellow":  "#dbb32d",
+        "orange":  "#ed8649",
+        "red":     "#fa5750",
+        "magenta": "#f275be",
+        "violet":  "#af88eb",
+        "blue":    "#4695f7",
+        "teal":    "#41c7b9",
+        "green":   "#75b938"
+      },
+      "ansi": {
+        "black":          "#1c1814",
+        "red":            "#fa5750",
+        "green":          "#75b938",
+        "yellow":         "#dbb32d",
+        "blue":           "#4695f7",
+        "magenta":        "#f275be",
+        "cyan":           "#41c7b9",
+        "white":          "#f5e8c7",
+        "bright_black":   "#3a332b",
+        "bright_red":     "#ff665c",
+        "bright_green":   "#84c747",
+        "bright_yellow":  "#ebc13d",
+        "bright_blue":    "#58a3ff",
+        "bright_magenta": "#ff84cd",
+        "bright_cyan":    "#53d6c7",
+        "bright_white":   "#fbf3db"
+      },
+      "ui": {
+        "cursor":       "#dbb32d",
+        "cursor_text":  "#1c1814",
+        "selection_bg": "#322b23",
+        "selection_fg": "#fbf3db"
+      }
+    },
+    "bru-latte": {
+      "type": "light",
+      "neutrals": {
+        "bg":       "#faf3e0",
+        "bg_soft":  "#f3ead0",
+        "bg_hi":    "#ece3cc",
+        "border":   "#e0d4b0",
+        "fg":       "#3a2f22",
+        "fg_alt":   "#2d241a",
+        "fg_muted": "#8a7f6f"
+      },
+      "accents": {
+        "yellow":  "#ad8900",
+        "orange":  "#c25d1e",
+        "red":     "#d2212d",
+        "magenta": "#ca4898",
+        "violet":  "#8762c6",
+        "blue":    "#0072d4",
+        "teal":    "#009c8f",
+        "green":   "#489100"
+      },
+      "ansi": {
+        "black":          "#3a2f22",
+        "red":            "#d2212d",
+        "green":          "#489100",
+        "yellow":         "#ad8900",
+        "blue":           "#0072d4",
+        "magenta":        "#ca4898",
+        "cyan":           "#009c8f",
+        "white":          "#faf3e0",
+        "bright_black":   "#8a7f6f",
+        "bright_red":     "#cc1729",
+        "bright_green":   "#428b00",
+        "bright_yellow":  "#a78300",
+        "bright_blue":    "#006dce",
+        "bright_magenta": "#c44392",
+        "bright_cyan":    "#00978a",
+        "bright_white":   "#2d241a"
+      },
+      "ui": {
+        "cursor":       "#ad8900",
+        "cursor_text":  "#faf3e0",
+        "selection_bg": "#ece3cc",
+        "selection_fg": "#2d241a"
+      }
+    }
+  }
+}

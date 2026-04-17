@@ -1,0 +1,31 @@
+# bru-espresso — lazygit theme
+# https://github.com/kmf/bru
+#
+# Install:
+#   Merge into ~/.config/lazygit/config.yml
+
+gui:
+  theme:
+    activeBorderColor:
+      - "#dbb32d"
+      - bold
+    inactiveBorderColor:
+      - "#3a332b"
+    searchingActiveBorderColor:
+      - "#ed8649"
+      - bold
+    optionsTextColor:
+      - "#4695f7"
+    selectedLineBgColor:
+      - "#322b23"
+    selectedRangeBgColor:
+      - "#322b23"
+    cherryPickedCommitBgColor:
+      - "#41c7b9"
+    cherryPickedCommitFgColor:
+      - "#1c1814"
+    unstagedChangesColor:
+      - "#fa5750"
+    defaultFgColor:
+      - "#f5e8c7"
+  nerdFontsVersion: "3"

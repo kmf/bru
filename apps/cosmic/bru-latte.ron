@@ -1,0 +1,64 @@
+// bru-latte — a lekker colorscheme for COSMIC Desktop
+// https://github.com/kmf/bru
+
+(
+    name: "bru-latte",
+    palette: Light((
+        name: "bru-latte",
+        bright_green:  (red: 0.259, green: 0.545, blue: 0.000, alpha: 1.0),  // #428b00
+        bright_red:    (red: 0.800, green: 0.090, blue: 0.161, alpha: 1.0),  // #cc1729
+        bright_orange: (red: 0.733, green: 0.337, blue: 0.090, alpha: 1.0),  // #bb5617
+        bright_yellow: (red: 0.655, green: 0.514, blue: 0.000, alpha: 1.0),  // #a78300
+        accent_blue:   (red: 0.000, green: 0.447, blue: 0.831, alpha: 1.0),  // #0072d4
+        accent_green:  (red: 0.282, green: 0.569, blue: 0.000, alpha: 1.0),  // #489100
+        accent_indigo: (red: 0.529, green: 0.384, blue: 0.776, alpha: 1.0),  // #8762c6
+        accent_orange: (red: 0.761, green: 0.365, blue: 0.118, alpha: 1.0),  // #c25d1e
+        accent_pink:   (red: 0.792, green: 0.282, blue: 0.596, alpha: 1.0),  // #ca4898
+        accent_purple: (red: 0.529, green: 0.384, blue: 0.776, alpha: 1.0),  // #8762c6
+        accent_red:    (red: 0.824, green: 0.129, blue: 0.176, alpha: 1.0),  // #d2212d
+        accent_warm_grey: (red: 0.541, green: 0.498, blue: 0.435, alpha: 1.0), // #8a7f6f
+        accent_yellow: (red: 0.678, green: 0.537, blue: 0.000, alpha: 1.0),  // #ad8900
+        ext_orange:    (red: 0.761, green: 0.365, blue: 0.118, alpha: 1.0),  // #c25d1e
+        ext_pink:      (red: 0.792, green: 0.282, blue: 0.596, alpha: 1.0),  // #ca4898
+        ext_purple:    (red: 0.529, green: 0.384, blue: 0.776, alpha: 1.0),  // #8762c6
+        ext_indigo:    (red: 0.000, green: 0.427, blue: 0.808, alpha: 1.0),  // #006dce
+        ext_warm_grey: (red: 0.541, green: 0.498, blue: 0.435, alpha: 1.0),  // #8a7f6f
+        ext_yellow:    (red: 0.655, green: 0.514, blue: 0.000, alpha: 1.0),  // #a78300
+        gray_1:        (red: 0.980, green: 0.953, blue: 0.878, alpha: 1.0),  // #faf3e0  bg
+        gray_2:        (red: 0.953, green: 0.918, blue: 0.816, alpha: 1.0),  // #f3ead0  bg-soft
+        neutral_0:     (red: 0.227, green: 0.184, blue: 0.133, alpha: 1.0),  // #3a2f22
+        neutral_1:     (red: 0.278, green: 0.235, blue: 0.184, alpha: 1.0),  // #473c2f
+        neutral_2:     (red: 0.380, green: 0.341, blue: 0.294, alpha: 1.0),  // #61574b
+        neutral_3:     (red: 0.541, green: 0.498, blue: 0.435, alpha: 1.0),  // #8a7f6f
+        neutral_4:     (red: 0.710, green: 0.655, blue: 0.569, alpha: 1.0),  // #b5a791
+        neutral_5:     (red: 0.878, green: 0.831, blue: 0.690, alpha: 1.0),  // #e0d4b0
+        neutral_6:     (red: 0.925, green: 0.890, blue: 0.800, alpha: 1.0),  // #ece3cc
+        neutral_7:     (red: 0.953, green: 0.918, blue: 0.816, alpha: 1.0),  // #f3ead0
+        neutral_8:     (red: 0.980, green: 0.953, blue: 0.878, alpha: 1.0),  // #faf3e0  bg
+        neutral_9:     (red: 0.992, green: 0.969, blue: 0.910, alpha: 1.0),  // #fdf7e7
+        neutral_10:    (red: 1.000, green: 0.980, blue: 0.937, alpha: 1.0),  // #fffaef
+    )),
+    is_frosted: true,
+    gaps: (0, 8),
+    active_hint: 3,
+    corner_radii: (
+        radius_0: (0.0, 0.0, 0.0, 0.0),
+        radius_xs: (4.0, 4.0, 4.0, 4.0),
+        radius_s:  (8.0, 8.0, 8.0, 8.0),
+        radius_m:  (16.0, 16.0, 16.0, 16.0),
+        radius_l:  (32.0, 32.0, 32.0, 32.0),
+        radius_xl: (160.0, 160.0, 160.0, 160.0),
+    ),
+    spacing: (
+        space_none: 0,
+        space_xxxs: 2,
+        space_xxs: 4,
+        space_xs: 8,
+        space_s: 12,
+        space_m: 16,
+        space_l: 24,
+        space_xl: 32,
+        space_xxl: 48,
+        space_xxxl: 64,
+    ),
+)

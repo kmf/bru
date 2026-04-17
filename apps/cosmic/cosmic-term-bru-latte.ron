@@ -1,0 +1,29 @@
+// bru-latte color scheme for cosmic-term
+// https://github.com/kmf/bru
+
+(
+    name: "bru-latte",
+    foreground: Some("#3a2f22"),
+    background: Some("#faf3e0"),
+    cursor: Some("#ad8900"),
+    bright_foreground: Some("#2d241a"),
+    dim_foreground: Some("#8a7f6f"),
+
+    black: Some("#3a2f22"),
+    red: Some("#d2212d"),
+    green: Some("#489100"),
+    yellow: Some("#ad8900"),
+    blue: Some("#0072d4"),
+    magenta: Some("#ca4898"),
+    cyan: Some("#009c8f"),
+    white: Some("#faf3e0"),
+
+    bright_black: Some("#8a7f6f"),
+    bright_red: Some("#cc1729"),
+    bright_green: Some("#428b00"),
+    bright_yellow: Some("#a78300"),
+    bright_blue: Some("#006dce"),
+    bright_magenta: Some("#c44392"),
+    bright_cyan: Some("#00978a"),
+    bright_white: Some("#2d241a"),
+)
