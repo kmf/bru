@@ -2,9 +2,12 @@
 // https://github.com/kmf/bru
 
 (
-    name: "bru-latte",
     palette: Light((
         name: "bru-latte",
+        blue:          (red: 0.000, green: 0.447, blue: 0.831, alpha: 1.0),  // #0072d4
+        red:           (red: 0.824, green: 0.129, blue: 0.176, alpha: 1.0),  // #d2212d
+        green:         (red: 0.282, green: 0.569, blue: 0.000, alpha: 1.0),  // #489100
+        yellow:        (red: 0.678, green: 0.537, blue: 0.000, alpha: 1.0),  // #ad8900
         bright_green:  (red: 0.259, green: 0.545, blue: 0.000, alpha: 1.0),  // #428b00
         bright_red:    (red: 0.800, green: 0.090, blue: 0.161, alpha: 1.0),  // #cc1729
         bright_orange: (red: 0.733, green: 0.337, blue: 0.090, alpha: 1.0),  // #bb5617
@@ -18,6 +21,7 @@
         accent_red:    (red: 0.824, green: 0.129, blue: 0.176, alpha: 1.0),  // #d2212d
         accent_warm_grey: (red: 0.541, green: 0.498, blue: 0.435, alpha: 1.0), // #8a7f6f
         accent_yellow: (red: 0.678, green: 0.537, blue: 0.000, alpha: 1.0),  // #ad8900
+        ext_blue:      (red: 0.000, green: 0.447, blue: 0.831, alpha: 1.0),  // #0072d4
         ext_orange:    (red: 0.761, green: 0.365, blue: 0.118, alpha: 1.0),  // #c25d1e
         ext_pink:      (red: 0.792, green: 0.282, blue: 0.596, alpha: 1.0),  // #ca4898
         ext_purple:    (red: 0.529, green: 0.384, blue: 0.776, alpha: 1.0),  // #8762c6
@@ -26,6 +30,7 @@
         ext_yellow:    (red: 0.655, green: 0.514, blue: 0.000, alpha: 1.0),  // #a78300
         gray_1:        (red: 0.980, green: 0.953, blue: 0.878, alpha: 1.0),  // #faf3e0  bg
         gray_2:        (red: 0.953, green: 0.918, blue: 0.816, alpha: 1.0),  // #f3ead0  bg-soft
+        gray_3:        (red: 0.925, green: 0.890, blue: 0.800, alpha: 1.0),  // #ece3cc  bg-hi
         neutral_0:     (red: 0.227, green: 0.184, blue: 0.133, alpha: 1.0),  // #3a2f22
         neutral_1:     (red: 0.278, green: 0.235, blue: 0.184, alpha: 1.0),  // #473c2f
         neutral_2:     (red: 0.380, green: 0.341, blue: 0.294, alpha: 1.0),  // #61574b
@@ -38,17 +43,6 @@
         neutral_9:     (red: 0.992, green: 0.969, blue: 0.910, alpha: 1.0),  // #fdf7e7
         neutral_10:    (red: 1.000, green: 0.980, blue: 0.937, alpha: 1.0),  // #fffaef
     )),
-    is_frosted: true,
-    gaps: (0, 8),
-    active_hint: 3,
-    corner_radii: (
-        radius_0: (0.0, 0.0, 0.0, 0.0),
-        radius_xs: (4.0, 4.0, 4.0, 4.0),
-        radius_s:  (8.0, 8.0, 8.0, 8.0),
-        radius_m:  (16.0, 16.0, 16.0, 16.0),
-        radius_l:  (32.0, 32.0, 32.0, 32.0),
-        radius_xl: (160.0, 160.0, 160.0, 160.0),
-    ),
     spacing: (
         space_none: 0,
         space_xxxs: 2,
@@ -61,4 +55,25 @@
         space_xxl: 48,
         space_xxxl: 64,
     ),
+    corner_radii: (
+        radius_0: (0.0, 0.0, 0.0, 0.0),
+        radius_xs: (2.0, 2.0, 2.0, 2.0),
+        radius_s: (8.0, 8.0, 8.0, 8.0),
+        radius_m: (8.0, 8.0, 8.0, 8.0),
+        radius_l: (8.0, 8.0, 8.0, 8.0),
+        radius_xl: (8.0, 8.0, 8.0, 8.0),
+    ),
+    bg_color: Some((red: 0.980, green: 0.953, blue: 0.878, alpha: 1.0,)),
+    text_tint: Some((red: 0.227, green: 0.184, blue: 0.133,)),
+    accent: Some((red: 0.000, green: 0.447, blue: 0.831,)),
+    success: Some((red: 0.282, green: 0.569, blue: 0.000,)),
+    warning: Some((red: 0.678, green: 0.537, blue: 0.000,)),
+    destructive: Some((red: 0.824, green: 0.129, blue: 0.176,)),
+    window_hint: Some((red: 0.000, green: 0.447, blue: 0.831,)),
+    neutral_tint: Some((red: 0.541, green: 0.498, blue: 0.435,)),
+    primary_container_bg: Some((red: 0.953, green: 0.918, blue: 0.816, alpha: 1.0,)),
+    secondary_container_bg: Some((red: 0.925, green: 0.890, blue: 0.800, alpha: 1.0,)),
+    is_frosted: true,
+    gaps: (0, 8),
+    active_hint: 3,
 )

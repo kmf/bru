@@ -10,9 +10,12 @@
 // current schema and merge bru values into it.
 
 (
-    name: "bru-espresso",
     palette: Dark((
         name: "bru-espresso",
+        blue:          (red: 0.275, green: 0.584, blue: 0.969, alpha: 1.0),  // #4695f7
+        red:           (red: 0.980, green: 0.341, blue: 0.314, alpha: 1.0),  // #fa5750
+        green:         (red: 0.459, green: 0.722, blue: 0.220, alpha: 1.0),  // #75b938
+        yellow:        (red: 0.859, green: 0.702, blue: 0.176, alpha: 1.0),  // #dbb32d
         bright_green:  (red: 0.518, green: 0.780, blue: 0.278, alpha: 1.0),  // #84c747
         bright_red:    (red: 1.000, green: 0.400, blue: 0.361, alpha: 1.0),  // #ff665c
         bright_orange: (red: 0.945, green: 0.565, blue: 0.345, alpha: 1.0),  // #f19058
@@ -26,6 +29,7 @@
         accent_red:    (red: 0.980, green: 0.341, blue: 0.314, alpha: 1.0),  // #fa5750
         accent_warm_grey: (red: 0.541, green: 0.498, blue: 0.435, alpha: 1.0), // #8a7f6f
         accent_yellow: (red: 0.859, green: 0.702, blue: 0.176, alpha: 1.0),  // #dbb32d
+        ext_blue:      (red: 0.275, green: 0.584, blue: 0.969, alpha: 1.0),  // #4695f7
         ext_orange:    (red: 0.929, green: 0.525, blue: 0.286, alpha: 1.0),  // #ed8649
         ext_pink:      (red: 0.949, green: 0.459, blue: 0.745, alpha: 1.0),  // #f275be
         ext_purple:    (red: 0.686, green: 0.533, blue: 0.922, alpha: 1.0),  // #af88eb
@@ -34,6 +38,7 @@
         ext_yellow:    (red: 0.922, green: 0.757, blue: 0.239, alpha: 1.0),  // #ebc13d
         gray_1:        (red: 0.109, green: 0.094, blue: 0.078, alpha: 1.0),  // #1c1814  bg
         gray_2:        (red: 0.149, green: 0.129, blue: 0.109, alpha: 1.0),  // #26211c  bg-soft
+        gray_3:        (red: 0.196, green: 0.169, blue: 0.137, alpha: 1.0),  // #322b23  bg-hi
         neutral_0:     (red: 0.109, green: 0.094, blue: 0.078, alpha: 1.0),  // #1c1814
         neutral_1:     (red: 0.149, green: 0.129, blue: 0.109, alpha: 1.0),  // #26211c
         neutral_2:     (red: 0.196, green: 0.169, blue: 0.137, alpha: 1.0),  // #322b23
@@ -46,17 +51,6 @@
         neutral_9:     (red: 0.984, green: 0.953, blue: 0.859, alpha: 1.0),  // #fbf3db  fg-alt
         neutral_10:    (red: 1.000, green: 0.980, blue: 0.918, alpha: 1.0),  // #fffad8
     )),
-    is_frosted: true,
-    gaps: (0, 8),
-    active_hint: 3,
-    corner_radii: (
-        radius_0: (0.0, 0.0, 0.0, 0.0),
-        radius_xs: (4.0, 4.0, 4.0, 4.0),
-        radius_s:  (8.0, 8.0, 8.0, 8.0),
-        radius_m:  (16.0, 16.0, 16.0, 16.0),
-        radius_l:  (32.0, 32.0, 32.0, 32.0),
-        radius_xl: (160.0, 160.0, 160.0, 160.0),
-    ),
     spacing: (
         space_none: 0,
         space_xxxs: 2,
@@ -69,4 +63,25 @@
         space_xxl: 48,
         space_xxxl: 64,
     ),
+    corner_radii: (
+        radius_0: (0.0, 0.0, 0.0, 0.0),
+        radius_xs: (2.0, 2.0, 2.0, 2.0),
+        radius_s: (8.0, 8.0, 8.0, 8.0),
+        radius_m: (8.0, 8.0, 8.0, 8.0),
+        radius_l: (8.0, 8.0, 8.0, 8.0),
+        radius_xl: (8.0, 8.0, 8.0, 8.0),
+    ),
+    bg_color: Some((red: 0.109, green: 0.094, blue: 0.078, alpha: 1.0,)),
+    text_tint: Some((red: 0.961, green: 0.910, blue: 0.780,)),
+    accent: Some((red: 0.275, green: 0.584, blue: 0.969,)),
+    success: Some((red: 0.459, green: 0.722, blue: 0.220,)),
+    warning: Some((red: 0.859, green: 0.702, blue: 0.176,)),
+    destructive: Some((red: 0.980, green: 0.341, blue: 0.314,)),
+    window_hint: Some((red: 0.275, green: 0.584, blue: 0.969,)),
+    neutral_tint: Some((red: 0.541, green: 0.498, blue: 0.435,)),
+    primary_container_bg: Some((red: 0.149, green: 0.129, blue: 0.109, alpha: 1.0,)),
+    secondary_container_bg: Some((red: 0.196, green: 0.169, blue: 0.137, alpha: 1.0,)),
+    is_frosted: true,
+    gaps: (0, 8),
+    active_hint: 3,
 )
