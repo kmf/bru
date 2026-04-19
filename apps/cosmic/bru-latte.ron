@@ -4,14 +4,21 @@
 (
     palette: Light((
         name: "bru-latte",
+
+        // base accents
         blue:          (red: 0.000, green: 0.447, blue: 0.831, alpha: 1.0),  // #0072d4
         red:           (red: 0.824, green: 0.129, blue: 0.176, alpha: 1.0),  // #d2212d
         green:         (red: 0.282, green: 0.569, blue: 0.000, alpha: 1.0),  // #489100
         yellow:        (red: 0.678, green: 0.537, blue: 0.000, alpha: 1.0),  // #ad8900
-        bright_green:  (red: 0.259, green: 0.545, blue: 0.000, alpha: 1.0),  // #428b00
-        bright_red:    (red: 0.800, green: 0.090, blue: 0.161, alpha: 1.0),  // #cc1729
-        bright_orange: (red: 0.733, green: 0.337, blue: 0.090, alpha: 1.0),  // #bb5617
-        bright_yellow: (red: 0.655, green: 0.514, blue: 0.000, alpha: 1.0),  // #a78300
+
+        // cosmic-specific brights — deeper/bolder for desktop UI
+        bright_blue:   (red: 0.000, green: 0.396, blue: 0.769, alpha: 1.0),  // #0065c4
+        bright_red:    (red: 0.753, green: 0.082, blue: 0.125, alpha: 1.0),  // #c01520
+        bright_green:  (red: 0.247, green: 0.518, blue: 0.000, alpha: 1.0),  // #3f8400
+        bright_yellow: (red: 0.620, green: 0.486, blue: 0.000, alpha: 1.0),  // #9e7c00
+        bright_orange: (red: 0.706, green: 0.322, blue: 0.055, alpha: 1.0),  // #b4520e
+
+        // accent slots
         accent_blue:   (red: 0.000, green: 0.447, blue: 0.831, alpha: 1.0),  // #0072d4
         accent_green:  (red: 0.282, green: 0.569, blue: 0.000, alpha: 1.0),  // #489100
         accent_indigo: (red: 0.529, green: 0.384, blue: 0.776, alpha: 1.0),  // #8762c6
@@ -21,13 +28,17 @@
         accent_red:    (red: 0.824, green: 0.129, blue: 0.176, alpha: 1.0),  // #d2212d
         accent_warm_grey: (red: 0.541, green: 0.498, blue: 0.435, alpha: 1.0), // #8a7f6f
         accent_yellow: (red: 0.678, green: 0.537, blue: 0.000, alpha: 1.0),  // #ad8900
-        ext_blue:      (red: 0.000, green: 0.447, blue: 0.831, alpha: 1.0),  // #0072d4
-        ext_orange:    (red: 0.761, green: 0.365, blue: 0.118, alpha: 1.0),  // #c25d1e
-        ext_pink:      (red: 0.792, green: 0.282, blue: 0.596, alpha: 1.0),  // #ca4898
-        ext_purple:    (red: 0.529, green: 0.384, blue: 0.776, alpha: 1.0),  // #8762c6
-        ext_indigo:    (red: 0.000, green: 0.427, blue: 0.808, alpha: 1.0),  // #006dce
+
+        // ext slots — cosmic-specific bright accents
+        ext_blue:      (red: 0.000, green: 0.396, blue: 0.769, alpha: 1.0),  // #0065c4
+        ext_orange:    (red: 0.706, green: 0.322, blue: 0.055, alpha: 1.0),  // #b4520e
+        ext_pink:      (red: 0.722, green: 0.239, blue: 0.533, alpha: 1.0),  // #b83d88
+        ext_purple:    (red: 0.478, green: 0.333, blue: 0.722, alpha: 1.0),  // #7a55b8
+        ext_indigo:    (red: 0.000, green: 0.396, blue: 0.769, alpha: 1.0),  // #0065c4
         ext_warm_grey: (red: 0.541, green: 0.498, blue: 0.435, alpha: 1.0),  // #8a7f6f
-        ext_yellow:    (red: 0.655, green: 0.514, blue: 0.000, alpha: 1.0),  // #a78300
+        ext_yellow:    (red: 0.620, green: 0.486, blue: 0.000, alpha: 1.0),  // #9e7c00
+
+        // neutrals — gray and neutral ramp
         gray_1:        (red: 0.980, green: 0.953, blue: 0.878, alpha: 1.0),  // #faf3e0  bg
         gray_2:        (red: 0.953, green: 0.918, blue: 0.816, alpha: 1.0),  // #f3ead0  bg-soft
         gray_3:        (red: 0.925, green: 0.890, blue: 0.800, alpha: 1.0),  // #ece3cc  bg-hi
@@ -68,8 +79,8 @@
     accent: Some((red: 0.000, green: 0.447, blue: 0.831,)),
     success: Some((red: 0.282, green: 0.569, blue: 0.000,)),
     warning: Some((red: 0.678, green: 0.537, blue: 0.000,)),
-    destructive: Some((red: 0.824, green: 0.129, blue: 0.176,)),
-    window_hint: Some((red: 0.000, green: 0.447, blue: 0.831,)),
+    destructive: Some((red: 0.753, green: 0.082, blue: 0.125,)),
+    window_hint: Some((red: 0.000, green: 0.396, blue: 0.769,)),
     neutral_tint: Some((red: 0.541, green: 0.498, blue: 0.435,)),
     primary_container_bg: Some((red: 0.953, green: 0.918, blue: 0.816, alpha: 1.0,)),
     secondary_container_bg: Some((red: 0.925, green: 0.890, blue: 0.800, alpha: 1.0,)),

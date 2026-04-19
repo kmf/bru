@@ -12,14 +12,21 @@
 (
     palette: Dark((
         name: "bru-espresso",
+
+        // base accents
         blue:          (red: 0.275, green: 0.584, blue: 0.969, alpha: 1.0),  // #4695f7
         red:           (red: 0.980, green: 0.341, blue: 0.314, alpha: 1.0),  // #fa5750
         green:         (red: 0.459, green: 0.722, blue: 0.220, alpha: 1.0),  // #75b938
         yellow:        (red: 0.859, green: 0.702, blue: 0.176, alpha: 1.0),  // #dbb32d
-        bright_green:  (red: 0.518, green: 0.780, blue: 0.278, alpha: 1.0),  // #84c747
-        bright_red:    (red: 1.000, green: 0.400, blue: 0.361, alpha: 1.0),  // #ff665c
-        bright_orange: (red: 0.945, green: 0.565, blue: 0.345, alpha: 1.0),  // #f19058
-        bright_yellow: (red: 0.922, green: 0.757, blue: 0.239, alpha: 1.0),  // #ebc13d
+
+        // cosmic-specific brights — more saturated for desktop UI
+        bright_blue:   (red: 0.239, green: 0.565, blue: 1.000, alpha: 1.0),  // #3d90ff
+        bright_red:    (red: 1.000, green: 0.282, blue: 0.259, alpha: 1.0),  // #ff4842
+        bright_green:  (red: 0.424, green: 0.776, blue: 0.188, alpha: 1.0),  // #6cc630
+        bright_yellow: (red: 0.894, green: 0.722, blue: 0.149, alpha: 1.0),  // #e4b826
+        bright_orange: (red: 0.957, green: 0.502, blue: 0.251, alpha: 1.0),  // #f48040
+
+        // accent slots
         accent_blue:   (red: 0.275, green: 0.584, blue: 0.969, alpha: 1.0),  // #4695f7
         accent_green:  (red: 0.459, green: 0.722, blue: 0.220, alpha: 1.0),  // #75b938
         accent_indigo: (red: 0.686, green: 0.533, blue: 0.922, alpha: 1.0),  // #af88eb
@@ -29,13 +36,17 @@
         accent_red:    (red: 0.980, green: 0.341, blue: 0.314, alpha: 1.0),  // #fa5750
         accent_warm_grey: (red: 0.541, green: 0.498, blue: 0.435, alpha: 1.0), // #8a7f6f
         accent_yellow: (red: 0.859, green: 0.702, blue: 0.176, alpha: 1.0),  // #dbb32d
-        ext_blue:      (red: 0.275, green: 0.584, blue: 0.969, alpha: 1.0),  // #4695f7
-        ext_orange:    (red: 0.929, green: 0.525, blue: 0.286, alpha: 1.0),  // #ed8649
-        ext_pink:      (red: 0.949, green: 0.459, blue: 0.745, alpha: 1.0),  // #f275be
-        ext_purple:    (red: 0.686, green: 0.533, blue: 0.922, alpha: 1.0),  // #af88eb
-        ext_indigo:    (red: 0.345, green: 0.639, blue: 1.000, alpha: 1.0),  // #58a3ff
+
+        // ext slots — cosmic-specific bright accents
+        ext_blue:      (red: 0.239, green: 0.565, blue: 1.000, alpha: 1.0),  // #3d90ff
+        ext_orange:    (red: 0.957, green: 0.502, blue: 0.251, alpha: 1.0),  // #f48040
+        ext_pink:      (red: 1.000, green: 0.408, blue: 0.753, alpha: 1.0),  // #ff68c0
+        ext_purple:    (red: 0.722, green: 0.494, blue: 0.961, alpha: 1.0),  // #b87ef5
+        ext_indigo:    (red: 0.239, green: 0.565, blue: 1.000, alpha: 1.0),  // #3d90ff
         ext_warm_grey: (red: 0.541, green: 0.498, blue: 0.435, alpha: 1.0),  // #8a7f6f
-        ext_yellow:    (red: 0.922, green: 0.757, blue: 0.239, alpha: 1.0),  // #ebc13d
+        ext_yellow:    (red: 0.894, green: 0.722, blue: 0.149, alpha: 1.0),  // #e4b826
+
+        // neutrals — gray and neutral ramp
         gray_1:        (red: 0.109, green: 0.094, blue: 0.078, alpha: 1.0),  // #1c1814  bg
         gray_2:        (red: 0.149, green: 0.129, blue: 0.109, alpha: 1.0),  // #26211c  bg-soft
         gray_3:        (red: 0.196, green: 0.169, blue: 0.137, alpha: 1.0),  // #322b23  bg-hi
@@ -76,8 +87,8 @@
     accent: Some((red: 0.275, green: 0.584, blue: 0.969,)),
     success: Some((red: 0.459, green: 0.722, blue: 0.220,)),
     warning: Some((red: 0.859, green: 0.702, blue: 0.176,)),
-    destructive: Some((red: 0.980, green: 0.341, blue: 0.314,)),
-    window_hint: Some((red: 0.275, green: 0.584, blue: 0.969,)),
+    destructive: Some((red: 1.000, green: 0.282, blue: 0.259,)),
+    window_hint: Some((red: 0.239, green: 0.565, blue: 1.000,)),
     neutral_tint: Some((red: 0.541, green: 0.498, blue: 0.435,)),
     primary_container_bg: Some((red: 0.149, green: 0.129, blue: 0.109, alpha: 1.0,)),
     secondary_container_bg: Some((red: 0.196, green: 0.169, blue: 0.137, alpha: 1.0,)),
