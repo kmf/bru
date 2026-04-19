@@ -519,17 +519,59 @@
         <div><span class="com"># ghostty</span></div>
         <div><span class="prompt">$</span> <span class="cmd">cp</span> <span class="arg">terminals/ghostty/bru-espresso</span> <span class="arg">~/.config/ghostty/themes/</span></div>
         <br>
+        <div><span class="com"># alacritty</span></div>
+        <div><span class="prompt">$</span> <span class="cmd">cp</span> <span class="arg">terminals/alacritty/bru-espresso.toml</span> <span class="arg">~/.config/alacritty/themes/</span></div>
+        <br>
+        <div><span class="com"># kitty</span></div>
+        <div><span class="prompt">$</span> <span class="cmd">cp</span> <span class="arg">terminals/kitty/bru-espresso.conf</span> <span class="arg">~/.config/kitty/themes/</span></div>
+        <br>
+        <div><span class="com"># wezterm</span></div>
+        <div><span class="prompt">$</span> <span class="cmd">cp</span> <span class="arg">terminals/wezterm/bru-espresso.lua</span> <span class="arg">~/.config/wezterm/colors/</span></div>
+        <br>
+        <div><span class="com"># foot</span></div>
+        <div><span class="prompt">$</span> <span class="cmd">cp</span> <span class="arg">terminals/foot/bru-espresso.ini</span> <span class="arg">~/.config/foot/</span></div>
+        <br>
         <div><span class="com"># neovim (lazy.nvim)</span></div>
-        <div><span class="prompt">$</span> { <span class="arg">"kmf/bru.nvim"</span>, <span class="flag">lazy</span> = <span class="arg">false</span>, <span class="flag">priority</span> = <span class="arg">1000</span> }</div>
+        <div><span class="prompt">$</span> { <span class="arg">"kmf/bru"</span>, <span class="flag">lazy</span> = <span class="arg">false</span>, <span class="flag">priority</span> = <span class="arg">1000</span> }</div>
+        <br>
+        <div><span class="com"># vim</span></div>
+        <div><span class="prompt">$</span> <span class="cmd">cp</span> <span class="arg">editors/vim/colors/bru-espresso.vim</span> <span class="arg">~/.vim/colors/</span></div>
+        <br>
+        <div><span class="com"># vs code</span></div>
+        <div><span class="prompt">$</span> <span class="cmd">cp -r</span> <span class="arg">editors/vscode</span> <span class="arg">~/.vscode/extensions/bru</span></div>
+        <br>
+        <div><span class="com"># emacs</span></div>
+        <div><span class="prompt">$</span> <span class="cmd">cp</span> <span class="arg">editors/emacs/bru-*-theme.el</span> <span class="arg">~/.emacs.d/themes/</span></div>
         <br>
         <div><span class="com"># zed</span></div>
         <div><span class="prompt">$</span> <span class="cmd">cp</span> <span class="arg">editors/zed/bru.json</span> <span class="arg">~/.config/zed/themes/</span></div>
+        <br>
+        <div><span class="com"># omarchy</span></div>
+        <div><span class="prompt">$</span> <span class="cmd">omarchy-theme-install</span> <span class="arg">https://github.com/kmf/omarchy-bru-espresso-theme</span></div>
         <br>
         <div><span class="com"># tmux</span></div>
         <div><span class="prompt">$</span> <span class="cmd">source-file</span> <span class="arg">~/.local/share/bru/tools/tmux/bru-espresso.tmux</span></div>
         <br>
         <div><span class="com"># bat</span></div>
         <div><span class="prompt">$</span> <span class="cmd">cp</span> <span class="arg">tools/bat/bru-espresso.tmTheme</span> <span class="arg">~/.config/bat/themes/</span> <span class="flag">&amp;&amp;</span> <span class="cmd">bat cache</span> <span class="flag">--build</span></div>
+        <br>
+        <div><span class="com"># fzf</span></div>
+        <div><span class="prompt">$</span> <span class="cmd">source</span> <span class="arg">~/.local/share/bru/tools/fzf/bru-espresso.sh</span></div>
+        <br>
+        <div><span class="com"># btop</span></div>
+        <div><span class="prompt">$</span> <span class="cmd">cp</span> <span class="arg">tools/btop/bru-espresso.theme</span> <span class="arg">~/.config/btop/themes/</span></div>
+        <br>
+        <div><span class="com"># k9s</span></div>
+        <div><span class="prompt">$</span> <span class="cmd">cp</span> <span class="arg">tools/k9s/bru-espresso.yaml</span> <span class="arg">~/.config/k9s/skins/</span></div>
+        <br>
+        <div><span class="com"># starship</span></div>
+        <div><span class="prompt">$</span> <span class="cmd">cp</span> <span class="arg">tools/starship/bru-espresso.toml</span> <span class="arg">~/.config/starship.toml</span></div>
+        <br>
+        <div><span class="com"># yazi</span></div>
+        <div><span class="prompt">$</span> <span class="cmd">cp</span> <span class="arg">tools/yazi/bru-espresso.toml</span> <span class="arg">~/.config/yazi/theme.toml</span></div>
+      </div>
+      <div style="margin-top: 0.75rem; font-size: 0.75rem; color: var(--bru-fg-muted);">
+        See <a href="https://github.com/kmf/bru/blob/main/INSTALL.md" style="color: var(--bru-blue);">INSTALL.md</a> for full instructions including iTerm2, Windows Terminal, lazygit, Chrome, Firefox, Obsidian, opencode, and COSMIC.
       </div>
     </section>
 
