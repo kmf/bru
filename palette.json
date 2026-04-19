@@ -16,15 +16,30 @@
         "fg_alt":   "#fbf3db",
         "fg_muted": "#8a7f6f"
       },
+      "neutral_ramp": [
+        "#1c1814",
+        "#26211c",
+        "#322b23",
+        "#3a332b",
+        "#61574b",
+        "#8a7f6f",
+        "#b5a791",
+        "#dbcbb1",
+        "#f5e8c7",
+        "#fbf3db",
+        "#fffad8"
+      ],
       "accents": {
-        "yellow":  "#dbb32d",
-        "orange":  "#ed8649",
-        "red":     "#fa5750",
-        "magenta": "#f275be",
-        "violet":  "#af88eb",
-        "blue":    "#4695f7",
-        "teal":    "#41c7b9",
-        "green":   "#75b938"
+        "yellow":         "#dbb32d",
+        "orange":         "#ed8649",
+        "red":            "#fa5750",
+        "magenta":        "#f275be",
+        "violet":         "#af88eb",
+        "blue":           "#4695f7",
+        "teal":           "#41c7b9",
+        "green":          "#75b938",
+        "bright_orange":  "#f19058",
+        "bright_violet":  "#be9af5"
       },
       "ansi": {
         "black":          "#1c1814",
@@ -62,15 +77,30 @@
         "fg_alt":   "#2d241a",
         "fg_muted": "#8a7f6f"
       },
+      "neutral_ramp": [
+        "#3a2f22",
+        "#473c2f",
+        "#61574b",
+        "#8a7f6f",
+        "#b5a791",
+        "#e0d4b0",
+        "#ece3cc",
+        "#f3ead0",
+        "#faf3e0",
+        "#fdf7e7",
+        "#fffaef"
+      ],
       "accents": {
-        "yellow":  "#ad8900",
-        "orange":  "#c25d1e",
-        "red":     "#d2212d",
-        "magenta": "#ca4898",
-        "violet":  "#8762c6",
-        "blue":    "#0072d4",
-        "teal":    "#009c8f",
-        "green":   "#489100"
+        "yellow":         "#ad8900",
+        "orange":         "#c25d1e",
+        "red":            "#d2212d",
+        "magenta":        "#ca4898",
+        "violet":         "#8762c6",
+        "blue":           "#0072d4",
+        "teal":           "#009c8f",
+        "green":          "#489100",
+        "bright_orange":  "#bb5617",
+        "bright_violet":  "#815cc0"
       },
       "ansi": {
         "black":          "#3a2f22",

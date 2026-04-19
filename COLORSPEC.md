@@ -62,6 +62,26 @@ Warm near-black base with cream text and bright, crisp accents.
 | `--bru-blue` | `#4695f7` | Links, informational states, primary interactive |
 | `--bru-teal` | `#41c7b9` | Success indicators, shields, constants |
 | `--bru-green` | `#75b938` | Strings, success states, positive deltas |
+| `--bru-bright-orange` | `#f19058` | Bright variant of orange — elevated emphasis |
+| `--bru-bright-violet` | `#be9af5` | Bright variant of violet — elevated type highlights |
+
+### Neutral ramp
+
+11-step luminance ramp from darkest to lightest, for UI frameworks requiring a full neutral scale (e.g., COSMIC Desktop).
+
+| Index | Hex | Maps to |
+|---|---|---|
+| 0 | `#1c1814` | bg |
+| 1 | `#26211c` | bg-soft |
+| 2 | `#322b23` | bg-hi |
+| 3 | `#3a332b` | border |
+| 4 | `#61574b` | — |
+| 5 | `#8a7f6f` | fg-muted |
+| 6 | `#b5a791` | — |
+| 7 | `#dbcbb1` | — |
+| 8 | `#f5e8c7` | fg |
+| 9 | `#fbf3db` | fg-alt |
+| 10 | `#fffad8` | — |
 
 ---
 
@@ -93,6 +113,26 @@ Warm sepia cream base with dark coffee text and darkened, contrast-safe accents.
 | `--bru-blue` | `#0072d4` | Links, informational states, primary interactive |
 | `--bru-teal` | `#009c8f` | Success indicators, shields, constants |
 | `--bru-green` | `#489100` | Strings, success states, positive deltas |
+| `--bru-bright-orange` | `#bb5617` | Bright variant of orange — elevated emphasis |
+| `--bru-bright-violet` | `#815cc0` | Bright variant of violet — elevated type highlights |
+
+### Neutral ramp
+
+11-step luminance ramp from darkest to lightest, for UI frameworks requiring a full neutral scale (e.g., COSMIC Desktop).
+
+| Index | Hex | Maps to |
+|---|---|---|
+| 0 | `#3a2f22` | fg |
+| 1 | `#473c2f` | — |
+| 2 | `#61574b` | — |
+| 3 | `#8a7f6f` | fg-muted |
+| 4 | `#b5a791` | — |
+| 5 | `#e0d4b0` | border |
+| 6 | `#ece3cc` | bg-hi |
+| 7 | `#f3ead0` | bg-soft |
+| 8 | `#faf3e0` | bg |
+| 9 | `#fdf7e7` | — |
+| 10 | `#fffaef` | — |
 
 ---
 
@@ -298,22 +338,28 @@ For theme build pipelines.
       "type": "dark",
       "neutrals": {
         "bg":       "#1c1814",
-        "bg-soft":  "#26211c",
-        "bg-hi":    "#322b23",
+        "bg_soft":  "#26211c",
+        "bg_hi":    "#322b23",
         "border":   "#3a332b",
         "fg":       "#f5e8c7",
-        "fg-alt":   "#fbf3db",
-        "fg-muted": "#8a7f6f"
+        "fg_alt":   "#fbf3db",
+        "fg_muted": "#8a7f6f"
       },
+      "neutral_ramp": [
+        "#1c1814", "#26211c", "#322b23", "#3a332b", "#61574b",
+        "#8a7f6f", "#b5a791", "#dbcbb1", "#f5e8c7", "#fbf3db", "#fffad8"
+      ],
       "accents": {
-        "yellow":  "#dbb32d",
-        "orange":  "#ed8649",
-        "red":     "#fa5750",
-        "magenta": "#f275be",
-        "violet":  "#af88eb",
-        "blue":    "#4695f7",
-        "teal":    "#41c7b9",
-        "green":   "#75b938"
+        "yellow":         "#dbb32d",
+        "orange":         "#ed8649",
+        "red":            "#fa5750",
+        "magenta":        "#f275be",
+        "violet":         "#af88eb",
+        "blue":           "#4695f7",
+        "teal":           "#41c7b9",
+        "green":          "#75b938",
+        "bright_orange":  "#f19058",
+        "bright_violet":  "#be9af5"
       },
       "ansi": {
         "black":          "#1c1814",
@@ -332,28 +378,40 @@ For theme build pipelines.
         "bright_magenta": "#ff84cd",
         "bright_cyan":    "#53d6c7",
         "bright_white":   "#fbf3db"
+      },
+      "ui": {
+        "cursor":       "#dbb32d",
+        "cursor_text":  "#1c1814",
+        "selection_bg": "#322b23",
+        "selection_fg": "#fbf3db"
       }
     },
     "bru-latte": {
       "type": "light",
       "neutrals": {
         "bg":       "#faf3e0",
-        "bg-soft":  "#f3ead0",
-        "bg-hi":    "#ece3cc",
+        "bg_soft":  "#f3ead0",
+        "bg_hi":    "#ece3cc",
         "border":   "#e0d4b0",
         "fg":       "#3a2f22",
-        "fg-alt":   "#2d241a",
-        "fg-muted": "#8a7f6f"
+        "fg_alt":   "#2d241a",
+        "fg_muted": "#8a7f6f"
       },
+      "neutral_ramp": [
+        "#3a2f22", "#473c2f", "#61574b", "#8a7f6f", "#b5a791",
+        "#e0d4b0", "#ece3cc", "#f3ead0", "#faf3e0", "#fdf7e7", "#fffaef"
+      ],
       "accents": {
-        "yellow":  "#ad8900",
-        "orange":  "#c25d1e",
-        "red":     "#d2212d",
-        "magenta": "#ca4898",
-        "violet":  "#8762c6",
-        "blue":    "#0072d4",
-        "teal":    "#009c8f",
-        "green":   "#489100"
+        "yellow":         "#ad8900",
+        "orange":         "#c25d1e",
+        "red":            "#d2212d",
+        "magenta":        "#ca4898",
+        "violet":         "#8762c6",
+        "blue":           "#0072d4",
+        "teal":           "#009c8f",
+        "green":          "#489100",
+        "bright_orange":  "#bb5617",
+        "bright_violet":  "#815cc0"
       },
       "ansi": {
         "black":          "#3a2f22",
@@ -372,6 +430,12 @@ For theme build pipelines.
         "bright_magenta": "#c44392",
         "bright_cyan":    "#00978a",
         "bright_white":   "#2d241a"
+      },
+      "ui": {
+        "cursor":       "#ad8900",
+        "cursor_text":  "#faf3e0",
+        "selection_bg": "#ece3cc",
+        "selection_fg": "#2d241a"
       }
     }
   }
