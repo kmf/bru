@@ -18,7 +18,8 @@ palette.json          # canonical palette (neutrals, accents, ansi, ui per varia
 COLORSPEC.md          # design spec, token tables, role mappings
 terminals/            # ghostty, alacritty, kitty, wezterm, iterm2, foot, windows-terminal
 editors/              # neovim (lua plugin), zed
-apps/                 # claude-code, chrome, firefox, obsidian, cosmic, opencode
+apps/                 # claude-code, chrome, firefox, obsidian, opencode
+desktop/              # cosmic
 tools/                # bat, btop, fzf, k9s, lazygit, starship, tmux, yazi
 ```
 

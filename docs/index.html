@@ -497,6 +497,9 @@
       <div class="tool-category">Apps</div>
       <div class="tools-grid" id="tools-apps"></div>
 
+      <div class="tool-category">Desktop</div>
+      <div class="tools-grid" id="tools-desktop"></div>
+
       <div class="tool-category">Dev tools</div>
       <div class="tools-grid" id="tools-devtools"></div>
 
@@ -683,11 +686,13 @@
     ],
     apps: [
       { name: 'Claude Code', variants: 'espresso · latte', format: 'json' },
-      { name: 'COSMIC',      variants: 'espresso · latte', format: 'ron' },
       { name: 'Obsidian',    variants: 'espresso · latte', format: 'css' },
       { name: 'opencode',    variants: 'espresso · latte', format: 'json' },
       { name: 'Chrome',      variants: 'espresso · latte', format: 'extension' },
       { name: 'Firefox',     variants: 'espresso · latte', format: 'extension' },
+    ],
+    desktop: [
+      { name: 'COSMIC',      variants: 'espresso · latte', format: 'ron' },
     ],
     devtools: [
       { name: 'bat',     variants: 'espresso · latte', format: 'tmTheme' },
@@ -762,6 +767,7 @@
   renderTools('tools-terminals', tools.terminals);
   renderTools('tools-editors',   tools.editors);
   renderTools('tools-apps',      tools.apps);
+  renderTools('tools-desktop',   tools.desktop);
   renderTools('tools-devtools',  tools.devtools);
   renderTools('tools-shell',     tools.shell);
 

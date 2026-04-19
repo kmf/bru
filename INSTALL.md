@@ -224,11 +224,11 @@ chmod +x ~/.claude/bru-statusline.sh
 ```bash
 # Dark
 mkdir -p ~/.config/cosmic/com.system76.CosmicTheme.Dark.Builder/v1
-cp apps/cosmic/bru-espresso.ron ~/.config/cosmic/com.system76.CosmicTheme.Dark.Builder/v1/Theme
+cp desktop/cosmic/bru-espresso.ron ~/.config/cosmic/com.system76.CosmicTheme.Dark.Builder/v1/Theme
 
 # Light
 mkdir -p ~/.config/cosmic/com.system76.CosmicTheme.Light.Builder/v1
-cp apps/cosmic/bru-latte.ron ~/.config/cosmic/com.system76.CosmicTheme.Light.Builder/v1/Theme
+cp desktop/cosmic/bru-latte.ron ~/.config/cosmic/com.system76.CosmicTheme.Light.Builder/v1/Theme
 ```
 
 Then import via Settings → Appearance.
