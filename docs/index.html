@@ -540,6 +540,9 @@
         <div><span class="com"># vs code</span></div>
         <div><span class="prompt">$</span> <span class="cmd">cp -r</span> <span class="arg">editors/vscode</span> <span class="arg">~/.vscode/extensions/bru</span></div>
         <br>
+        <div><span class="com"># intellij / jetbrains — import via Settings &gt; Editor &gt; Color Scheme</span></div>
+        <div><span class="prompt">$</span> <span class="cmd">cp</span> <span class="arg">editors/intellij/bru-espresso.icls</span> <span class="arg">~/.config/JetBrains/IntelliJIdea*/colors/</span></div>
+        <br>
         <div><span class="com"># emacs</span></div>
         <div><span class="prompt">$</span> <span class="cmd">cp</span> <span class="arg">editors/emacs/bru-*-theme.el</span> <span class="arg">~/.emacs.d/themes/</span></div>
         <br>
@@ -723,6 +726,7 @@
       { name: 'Neovim',  variants: 'espresso · latte', format: 'lua plugin' },
       { name: 'Vim',     variants: 'espresso · latte', format: 'vim' },
       { name: 'VS Code', variants: 'espresso · latte', format: 'json' },
+      { name: 'IntelliJ', variants: 'espresso · latte', format: 'icls' },
       { name: 'Emacs',   variants: 'espresso · latte', format: 'elisp' },
       { name: 'Zed',     variants: 'espresso · latte', format: 'json' },
     ],

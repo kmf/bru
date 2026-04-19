@@ -165,6 +165,26 @@ ln -s ~/.local/share/bru/editors/vscode ~/.vscode/extensions/bru
 
 Restart VS Code → Settings → Color Theme → **Bru Espresso** or **Bru Latte**.
 
+### IntelliJ / JetBrains IDEs
+
+Works with IntelliJ IDEA, PyCharm, WebStorm, GoLand, Rider, CLion, RubyMine, PhpStorm, etc.
+
+1. Open **Settings** → **Editor** → **Color Scheme**
+2. Click the gear icon → **Import Scheme**
+3. Select `editors/intellij/bru-espresso.icls` or `bru-latte.icls`
+
+Or copy directly:
+
+```bash
+# Linux
+cp editors/intellij/bru-espresso.icls ~/.config/JetBrains/IntelliJIdea*/colors/
+
+# macOS
+cp editors/intellij/bru-espresso.icls ~/Library/Application\ Support/JetBrains/IntelliJIdea*/colors/
+```
+
+Restart the IDE, then select in **Settings** → **Editor** → **Color Scheme**.
+
 ### Emacs
 
 ```bash
