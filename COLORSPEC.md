@@ -62,8 +62,14 @@ Warm near-black base with cream text and bright, crisp accents.
 | `--bru-blue` | `#4695f7` | Links, informational states, primary interactive |
 | `--bru-teal` | `#41c7b9` | Success indicators, shields, constants |
 | `--bru-green` | `#75b938` | Strings, success states, positive deltas |
-| `--bru-bright-orange` | `#f19058` | Bright variant of orange — elevated emphasis |
-| `--bru-bright-violet` | `#be9af5` | Bright variant of violet — elevated type highlights |
+| `--bru-bright-yellow` | `#ebc13d` | Bright variant of yellow |
+| `--bru-bright-orange` | `#f19058` | Bright variant of orange |
+| `--bru-bright-red` | `#ff665c` | Bright variant of red |
+| `--bru-bright-magenta` | `#ff84cd` | Bright variant of magenta |
+| `--bru-bright-violet` | `#be9af5` | Bright variant of violet |
+| `--bru-bright-blue` | `#58a3ff` | Bright variant of blue |
+| `--bru-bright-teal` | `#53d6c7` | Bright variant of teal |
+| `--bru-bright-green` | `#84c747` | Bright variant of green |
 
 ### Neutral ramp
 
@@ -113,8 +119,14 @@ Warm sepia cream base with dark coffee text and darkened, contrast-safe accents.
 | `--bru-blue` | `#0072d4` | Links, informational states, primary interactive |
 | `--bru-teal` | `#009c8f` | Success indicators, shields, constants |
 | `--bru-green` | `#489100` | Strings, success states, positive deltas |
-| `--bru-bright-orange` | `#bb5617` | Bright variant of orange — elevated emphasis |
-| `--bru-bright-violet` | `#815cc0` | Bright variant of violet — elevated type highlights |
+| `--bru-bright-yellow` | `#a78300` | Bright variant of yellow |
+| `--bru-bright-orange` | `#bb5617` | Bright variant of orange |
+| `--bru-bright-red` | `#cc1729` | Bright variant of red |
+| `--bru-bright-magenta` | `#c44392` | Bright variant of magenta |
+| `--bru-bright-violet` | `#815cc0` | Bright variant of violet |
+| `--bru-bright-blue` | `#006dce` | Bright variant of blue |
+| `--bru-bright-teal` | `#00978a` | Bright variant of teal |
+| `--bru-bright-green` | `#428b00` | Bright variant of green |
 
 ### Neutral ramp
 
@@ -358,8 +370,14 @@ For theme build pipelines.
         "blue":           "#4695f7",
         "teal":           "#41c7b9",
         "green":          "#75b938",
+        "bright_yellow":  "#ebc13d",
         "bright_orange":  "#f19058",
-        "bright_violet":  "#be9af5"
+        "bright_red":     "#ff665c",
+        "bright_magenta": "#ff84cd",
+        "bright_violet":  "#be9af5",
+        "bright_blue":    "#58a3ff",
+        "bright_teal":    "#53d6c7",
+        "bright_green":   "#84c747"
       },
       "ansi": {
         "black":          "#1c1814",
@@ -410,8 +428,14 @@ For theme build pipelines.
         "blue":           "#0072d4",
         "teal":           "#009c8f",
         "green":          "#489100",
+        "bright_yellow":  "#a78300",
         "bright_orange":  "#bb5617",
-        "bright_violet":  "#815cc0"
+        "bright_red":     "#cc1729",
+        "bright_magenta": "#c44392",
+        "bright_violet":  "#815cc0",
+        "bright_blue":    "#006dce",
+        "bright_teal":    "#00978a",
+        "bright_green":   "#428b00"
       },
       "ansi": {
         "black":          "#3a2f22",

@@ -5,6 +5,8 @@
 
 A warm, readable colorscheme for the terminal generation. Two variants — `bru-espresso` (dark) and `bru-latte` (light) — with matching configs for every tool in your stack.
 
+**[kmf.github.io/bru](https://kmf.github.io/bru/)** — live palette preview with dark/light toggle.
+
 ## Palette
 
 ### bru-espresso (dark)
@@ -33,8 +35,14 @@ A warm, readable colorscheme for the terminal generation. Two variants — `bru-
 | ![blue](https://singlecolorimage.com/get/4695f7/16x16) | blue | `#4695f7` |
 | ![teal](https://singlecolorimage.com/get/41c7b9/16x16) | teal | `#41c7b9` |
 | ![green](https://singlecolorimage.com/get/75b938/16x16) | green | `#75b938` |
+| ![bright_yellow](https://singlecolorimage.com/get/ebc13d/16x16) | bright_yellow | `#ebc13d` |
 | ![bright_orange](https://singlecolorimage.com/get/f19058/16x16) | bright_orange | `#f19058` |
+| ![bright_red](https://singlecolorimage.com/get/ff665c/16x16) | bright_red | `#ff665c` |
+| ![bright_magenta](https://singlecolorimage.com/get/ff84cd/16x16) | bright_magenta | `#ff84cd` |
 | ![bright_violet](https://singlecolorimage.com/get/be9af5/16x16) | bright_violet | `#be9af5` |
+| ![bright_blue](https://singlecolorimage.com/get/58a3ff/16x16) | bright_blue | `#58a3ff` |
+| ![bright_teal](https://singlecolorimage.com/get/53d6c7/16x16) | bright_teal | `#53d6c7` |
+| ![bright_green](https://singlecolorimage.com/get/84c747/16x16) | bright_green | `#84c747` |
 
 **ANSI**
 
@@ -108,8 +116,14 @@ A warm, readable colorscheme for the terminal generation. Two variants — `bru-
 | ![blue](https://singlecolorimage.com/get/0072d4/16x16) | blue | `#0072d4` |
 | ![teal](https://singlecolorimage.com/get/009c8f/16x16) | teal | `#009c8f` |
 | ![green](https://singlecolorimage.com/get/489100/16x16) | green | `#489100` |
+| ![bright_yellow](https://singlecolorimage.com/get/a78300/16x16) | bright_yellow | `#a78300` |
 | ![bright_orange](https://singlecolorimage.com/get/bb5617/16x16) | bright_orange | `#bb5617` |
+| ![bright_red](https://singlecolorimage.com/get/cc1729/16x16) | bright_red | `#cc1729` |
+| ![bright_magenta](https://singlecolorimage.com/get/c44392/16x16) | bright_magenta | `#c44392` |
 | ![bright_violet](https://singlecolorimage.com/get/815cc0/16x16) | bright_violet | `#815cc0` |
+| ![bright_blue](https://singlecolorimage.com/get/006dce/16x16) | bright_blue | `#006dce` |
+| ![bright_teal](https://singlecolorimage.com/get/00978a/16x16) | bright_teal | `#00978a` |
+| ![bright_green](https://singlecolorimage.com/get/428b00/16x16) | bright_green | `#428b00` |
 
 **ANSI**
 
