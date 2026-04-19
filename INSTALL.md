@@ -233,6 +233,22 @@ cp desktop/cosmic/bru-latte.ron ~/.config/cosmic/com.system76.CosmicTheme.Light.
 
 Then import via Settings → Appearance.
 
+### Omarchy
+
+```bash
+omarchy-theme-install https://github.com/kmf/omarchy-bru-espresso-theme
+omarchy-theme-install https://github.com/kmf/omarchy-bru-latte-theme
+```
+
+Or manually:
+
+```bash
+git clone https://github.com/kmf/omarchy-bru-espresso-theme ~/.config/omarchy/themes/omarchy-bru-espresso-theme
+git clone https://github.com/kmf/omarchy-bru-latte-theme ~/.config/omarchy/themes/omarchy-bru-latte-theme
+```
+
+Then: Omarchy Menu (Super + Alt + Space) → Style → Theme → **bru-espresso** or **bru-latte**.
+
 ### Obsidian
 
 ```bash

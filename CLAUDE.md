@@ -19,7 +19,7 @@ COLORSPEC.md          # design spec, token tables, role mappings
 terminals/            # ghostty, alacritty, kitty, wezterm, iterm2, foot, windows-terminal
 editors/              # neovim (lua plugin), zed
 apps/                 # claude-code, chrome, firefox, obsidian, opencode
-desktop/              # cosmic
+desktop/              # cosmic, omarchy (separate repos: kmf/omarchy-bru-*-theme)
 tools/                # bat, btop, fzf, k9s, lazygit, starship, tmux, yazi
 ```
 
