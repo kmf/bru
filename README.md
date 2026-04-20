@@ -177,7 +177,7 @@ A warm, readable colorscheme for the terminal generation. Two variants — `bru-
 |---|---|
 | Terminals | Ghostty · Alacritty · Kitty · WezTerm · iTerm2 · foot · Windows Terminal |
 | Editors | Neovim (Lua) · Vim · VS Code · IntelliJ / JetBrains · Emacs · Zed |
-| Apps | Claude Code · Chrome · Firefox · Obsidian · opencode |
+| Apps | Claude Code · Chrome · Firefox · [Obsidian](https://github.com/kmf/obsidian-bru) · opencode |
 | Desktop | COSMIC · [Omarchy](https://github.com/kmf/omarchy-bru-espresso-theme) |
 | Dev tools | bat · fzf · tmux · btop · lazygit · k9s · yazi |
 | Shell | Starship |
