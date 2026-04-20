@@ -7,6 +7,7 @@
       "name": "Bru Espresso",
       "appearance": "dark",
       "style": {
+        "accents": ["#dbb32dff", "#4695f7ff", "#75b938ff", "#fa5750ff", "#af88ebff", "#41c7b9ff", "#ed8649ff", "#f275beff"],
         "border": "#3a332bff",
         "border.variant": "#322b23ff",
         "border.focused": "#4695f7ff",
@@ -421,6 +422,7 @@
       "name": "Bru Latte",
       "appearance": "light",
       "style": {
+        "accents": ["#ad8900ff", "#0072d4ff", "#489100ff", "#d2212dff", "#8762c6ff", "#009c8fff", "#c25d1eff", "#ca4898ff"],
         "border": "#e0d4b0ff",
         "border.variant": "#ece3ccff",
         "border.focused": "#0072d4ff",
