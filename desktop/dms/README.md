@@ -24,14 +24,13 @@ This gives 2 flavors × 8 accents = 16 combinations, each with dark/light mode s
 
 ## Install
 
-1. Copy `theme.json` to the DMS plugin registry themes directory:
+Point DMS at this `theme.json` via its [config file](https://danklinux.com/docs/dankmaterialshell/custom-themes#via-configuration-file). In `~/.config/DankMaterialShell/settings.json`:
 
-   ```
-   ~/.local/share/gnome-shell/extensions/material-shell@AvengeMedia/themes/bru/theme.json
-   ```
+```json
+{
+  "currentThemeName": "custom",
+  "customThemeFile": "/path/to/bru/desktop/dms/theme.json"
+}
+```
 
-   Or clone/fork the [DMS plugin registry](https://github.com/AvengeMedia/dms-plugin-registry) and add the `bru/` directory under `themes/`.
-
-2. Open Material Shell settings and select **Bru** from the theme picker.
-
-3. Choose the **Espresso** or **Latte** variant from the variant selector.
+DMS reloads automatically on save. Pick the **Espresso** or **Latte** flavor and one of the 8 accents from the DMS variant selector.

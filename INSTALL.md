@@ -253,6 +253,19 @@ cp desktop/cosmic/bru-latte.ron ~/.config/cosmic/com.system76.CosmicTheme.Light.
 
 Then import via Settings → Appearance.
 
+### Dank Material Shell (DMS)
+
+Point DMS at the theme file via its [config file](https://danklinux.com/docs/dankmaterialshell/custom-themes#via-configuration-file). In `~/.config/DankMaterialShell/settings.json`:
+
+```json
+{
+  "currentThemeName": "custom",
+  "customThemeFile": "/home/you/.local/share/bru/desktop/dms/theme.json"
+}
+```
+
+DMS reloads automatically on save. The theme provides two flavors (**Espresso** / **Latte**) and 8 accents (yellow default, plus orange, red, magenta, violet, blue, teal, green), selectable via the DMS variant picker.
+
 ### Omarchy
 
 ```bash
